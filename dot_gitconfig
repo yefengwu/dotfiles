@@ -1,0 +1,14 @@
+[user]
+	email = franklxw@outlook.com
+	name = xuwei
+[credential]
+  helper = !"C:/Users/xuwei/Scoop/apps/git/2.40.1.windows.1/mingw64/bin/git-credential-manager.exe" 
+[init]
+	defaultBranch = main
+[pull]
+  rebase = true
+[http]
+	sslVerify = true
+[safe]
+	directory = %(prefix)///192.168.1.95/Nixos/nixos
+	directory = %(prefix)///192.168.1.95/Nixos/frostedflakes

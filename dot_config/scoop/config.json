@@ -1,0 +1,13 @@
+{
+  "proxy": "127.0.0.1:7890",
+  "last_update": "2023-05-25T10:59:46.0630864+08:00",
+  "aria2-warning-enabled": false,
+  "private_hosts": [
+    {
+      "match": "https://github.com/yefengwu/*",
+      "headers": "Authorization=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"
+    }
+  ],
+  "scoop_branch": "master",
+  "scoop_repo": "https://github.com/ScoopInstaller/Scoop"
+}
