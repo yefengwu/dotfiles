@@ -1,0 +1,7 @@
+[
+    { "keys": [" ", "e"], "command": "toggle_side_bar" },
+    { "keys": [" ", "w"], "command": "save", "args": { "async": true } },
+    { "keys": [" ", "f", "n"], "command": "new_file"},
+    { "keys": [" ", "b", "d"], "command": "close_file"},
+    { "keys": [" ", "s", "e"], "command": "toggle_setting"},
+]
