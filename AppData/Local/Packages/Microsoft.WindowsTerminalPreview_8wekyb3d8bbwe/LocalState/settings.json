@@ -277,6 +277,23 @@
                 "tabTitle": "ALIVPS"
             },
             {
+                "bellStyle": "none",
+                "colorScheme": "One Half Dark",
+                "commandline": "simple.exe",
+                "cursorShape": "filledBox",
+                "font": 
+                {
+                    "face": "JetBrainsMono NFM"
+                },
+                "guid": "{e249621f-0bed-4a98-9d96-e194b08cf9ea}",
+                "hidden": false,
+                "historySize": 90210,
+                "icon": "C:\\Users\\xuwei\\OneDrive\\图片\\ICONS\\serial.ico",
+                "name": "SimpleCom",
+                "suppressApplicationTitle": true,
+                "tabTitle": "SimpleCom"
+            },
+            {
                 "colorScheme": "One Half Dark",
                 "font": 
                 {
