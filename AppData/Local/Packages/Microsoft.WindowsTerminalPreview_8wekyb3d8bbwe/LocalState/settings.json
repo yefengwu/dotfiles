@@ -279,17 +279,18 @@
             {
                 "bellStyle": "none",
                 "colorScheme": "One Half Dark",
-                "commandline": "simple.exe",
+                "commandline": "simplecom.exe",
                 "cursorShape": "filledBox",
                 "font": 
                 {
                     "face": "JetBrainsMono NFM"
                 },
-                "guid": "{e249621f-0bed-4a98-9d96-e194b08cf9ea}",
+                "guid": "{27fcf5bc-56d6-4512-90a4-f56687f98285}",
                 "hidden": false,
                 "historySize": 90210,
-                "icon": "C:\\Users\\xuwei\\OneDrive\\图片\\ICONS\\serial.ico",
+                "icon": "C:\\Users\\xuwei\\OneDrive\\\u56fe\u7247\\ICONS\\serial.ico",
                 "name": "SimpleCom",
+                "startingDirectory": "%USERPROFILE%",
                 "suppressApplicationTitle": true,
                 "tabTitle": "SimpleCom"
             },
