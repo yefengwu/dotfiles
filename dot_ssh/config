@@ -25,6 +25,13 @@ Host nixos
     IdentityFile ~/.ssh/id_rsa
     ServerAliveInterval 60
 
+Host vps
+    HostName 119.23.149.165
+    User xuwei
+    Port 2332
+    IdentityFile ~/.ssh/id_rsa
+    ServerAliveInterval 60
+
 Host 100ask
     HostName 192.168.37.128
     User book
