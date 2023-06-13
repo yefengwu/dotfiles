@@ -17,10 +17,11 @@ Host omv
     User xuwei
     Port 12212
     IdentityFile ~/.ssh/id_rsa
-Host vps
+
+Host nixos
     HostName 119.23.149.165
-    User frank
-    Port 2332
+    User xuwei
+    Port 10022
     IdentityFile ~/.ssh/id_rsa
     ServerAliveInterval 60
 
