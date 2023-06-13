@@ -221,8 +221,8 @@
                 "bellStyle": "none",
                 "closeOnExit": "graceful",
                 "colorScheme": "One Half Dark",
-                "commandline": "C:\\Users\\xuwei\\Scoop\\apps\\pwsh\\current\\pwsh.exe  --nologo",
-                "cursorShape": "filledBox",
+                "commandline": "C:\\Users\\xuwei\\Scoop\\apps\\nushell\\current\\nu.exe",
+                "cursorShape": "emptyBox",
                 "font": 
                 {
                     "face": "JetBrainsMono NFM",
@@ -231,13 +231,14 @@
                 "guid": "{46f1d4f7-20f2-433c-b3ee-279382410cad}",
                 "hidden": false,
                 "historySize": 9001,
-                "icon": "ms-appx:///ProfileIcons/{61c54bbd-c2c6-5271-96e7-009a87ff44bf}.png",
+                "icon": "C:\\Users\\xuwei\\OneDrive\\\u56fe\u7247\\ICONS\\nushell.png",
                 "intenseTextStyle": "bold",
-                "name": "PowerShell7",
+                "name": "Nushell",
                 "padding": "8, 8, 8, 8",
                 "snapOnInput": true,
                 "startingDirectory": "%USERPROFILE%",
-                "tabTitle": "PowerShell7",
+                "suppressApplicationTitle": true,
+                "tabTitle": "Nushell",
                 "useAcrylic": false
             },
             {
