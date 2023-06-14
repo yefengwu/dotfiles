@@ -286,7 +286,7 @@ let-env config = {
     format: "auto" # b, kb, kib, mb, mib, gb, gib, tb, tib, pb, pib, eb, eib, zb, zib, auto
   }
   cursor_shape: {
-    emacs: line # block, underscore, line, blink_block, blink_underscore, blink_line (line is the default)
+    emacs: blink_block # block, underscore, line, blink_block, blink_underscore, blink_line (line is the default)
     vi_insert: block # block, underscore, line , blink_block, blink_underscore, blink_line (block is the default)
     vi_normal: underscore # block, underscore, line, blink_block, blink_underscore, blink_line (underscore is the default)
   }
@@ -548,3 +548,4 @@ alias sl = scoop list
 alias vi = nvim
 alias si = scoop install
 alias ci = chezmoi
+alias eo = explorer

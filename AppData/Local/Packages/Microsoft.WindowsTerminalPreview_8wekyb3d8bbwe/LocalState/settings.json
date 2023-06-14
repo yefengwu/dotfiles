@@ -17,9 +17,10 @@
         {
             "command": 
             {
-                "action": "newTab"
+                "action": "copy",
+                "singleLine": false
             },
-            "keys": "ctrl+t"
+            "keys": "ctrl+c"
         },
         {
             "command": 
@@ -30,20 +31,15 @@
             "keys": "ctrl+3"
         },
         {
-            "command": "openNewTabDropdown",
-            "keys": "alt+o"
-        },
-        {
             "command": 
             {
-                "action": "copy",
-                "singleLine": false
+                "action": "newTab"
             },
-            "keys": "ctrl+c"
+            "keys": "ctrl+t"
         },
         {
-            "command": "paste",
-            "keys": "ctrl+v"
+            "command": "openNewTabDropdown",
+            "keys": "alt+o"
         },
         {
             "command": 
@@ -52,6 +48,10 @@
                 "index": 1
             },
             "keys": "ctrl+2"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
         },
         {
             "command": "closePane",
@@ -222,7 +222,7 @@
                 "closeOnExit": "graceful",
                 "colorScheme": "One Half Dark",
                 "commandline": "C:\\Users\\xuwei\\Scoop\\apps\\nushell\\current\\nu.exe",
-                "cursorShape": "emptyBox",
+                "cursorShape": "filledBox",
                 "font": 
                 {
                     "face": "JetBrainsMono NFM",

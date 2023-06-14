@@ -27,7 +27,7 @@ Host nixos
 
 Host vps
     HostName 119.23.149.165
-    User xuwei
+    User frank
     Port 2332
     IdentityFile ~/.ssh/id_rsa
     ServerAliveInterval 60
