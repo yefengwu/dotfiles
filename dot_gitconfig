@@ -8,7 +8,7 @@
 [pull]
   rebase = true
 [http]
-	sslverify = false
+	sslverify = true
 [safe]
 	directory = %(prefix)///192.168.1.95/Nixos/nixos
 	directory = %(prefix)///192.168.1.95/Nixos/frostedflakes
