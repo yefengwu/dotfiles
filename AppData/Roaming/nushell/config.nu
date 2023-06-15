@@ -549,3 +549,5 @@ alias vi = nvim
 alias si = scoop install
 alias ci = chezmoi
 alias eo = explorer
+alias gcl = git clone 
+alias lg = lazygit.exe
