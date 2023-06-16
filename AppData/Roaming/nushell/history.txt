@@ -1,0 +1,1298 @@
+ls
+env
+ls
+ps
+ls
+env
+ls
+vi 
+nvim
+ls
+nvim
+ls
+env
+ls
+env
+vi 
+ls
+ps
+ls
+ipconfig.exe 
+cd
+ls
+pwd
+ls
+pwd
+ls
+env
+ls
+env
+vi 
+ls
+env
+ls
+lg
+ls
+cd
+ls
+env
+ls
+nvim 
+ls
+pwd
+ls
+pwd
+ls
+env
+vi 
+ls
+la
+ls | length
+ls
+ls | each { |it|<\n>cd $it.name<\n>make<\n>}
+ls *.md
+mv
+42 | describe 
+"1" | int int
+"1" | into int
+"1.2" | into decimal 
+ls | each { |it| echo $"($it.name) is ($it.size)" }
+echo hello
+echo "hello"
+ls **/I
+ls **/*
+echo {name: sam, rank: 10}
+echo {name: sam, rank: 10} | transpose key value
+echo [sam fred george]
+echo [[column1, column2]; [Value1, Value2]]
+echo [{name: sam, rank: 10}, {name: bob, rank: 7}]
+each { |it| echo $it }
+foo {<\n>  line1<\n>  line2; line3 | line4<\n>}
+date
+date now
+ls
+open .wezterm.lua
+open .wezterm.lua | lines
+open .wezterm.lua | lines | split column "|"
+open .wezterm.lua | lines | split column "|" | str trim 
+http get https://www.nushell.sh/zh-CN/book/loading_data.html#%E4%BB%A5%E5%8E%9F%E5%A7%8B%E6%A8%A1%E5%BC%8F%E6%89%93%E5%BC%80
+ $"2 + 2 is (2 + 2) \(you guessed it!)"
+help str
+"hello world" | str contains "w"
+ '       My   string   ' | str trim
+ $'(ansi purple_bold)This text is a bold purple!(ansi reset)'
+[1, 2, 3, 4] | insert 2 10
+let names = [Mark Tami Amanda Jeremy]
+$names.1
+$names | get $index
+let index=1
+let index = 1
+$names | get $index
+ls
+[red green blue] | length
+ls | table
+ls
+alias
+help commands 
+ls
+ansi
+help ansi
+help ls
+help alas
+help alaias
+help alias
+alias vi = nvim 
+vi 
+ls
+echo $nu.env-path
+echo $nu.config-path
+vi $env.config
+open $env.config
+echo $nu.config-path
+vi $env.config
+vi $nu.config-path
+ls
+scoop 
+ls
+scoop 
+scoop list
+sl
+scoop ss test
+ls
+vi 
+ls
+vi 
+ls
+vi $nu.config-path
+nvim $nu.config-path
+ls
+sl
+source-env 
+source-env  $nu.config-path
+ls
+z 
+zoxide.exe 
+ls
+$nu.scope 
+$nu.scope.aliases
+g 
+g help
+help g
+help goto
+ls
+$nu.scope.aliases
+ls
+aliaset sl scoop list
+aliases.set sl scoop list
+package install nu-completions
+config 
+config nu
+vi $nu.config-path
+nvim $nu.config-path
+ls
+vi $nu.config-path
+ls
+env | grep 
+env | grep editor
+echo $env:EDOITOR
+echo $env.EDOITOR
+echo $env.EDITOR
+nvim $nu.config-path
+ls
+vi 
+ls
+config nu 
+ls
+config nu 
+ls
+config nu 
+nvim $nu.config-path
+ls
+sl
+ls
+vi 
+config nu 
+si
+ss
+ls
+config nu 
+ls
+si 
+ls
+si 
+ls
+sl
+ls
+config nu 
+ci 
+ls
+echo $nu.config-path
+ci add $nu.config-path
+ci re-add
+ls
+ci 
+ci staus
+ci status
+cd .config\chezmoi\
+ls
+vi chezmoi.json
+ls
+z
+ls
+cd
+ls
+l
+goto ci
+ls
+zoxide.exe  con
+vi $env.profile
+ls
+env
+ls
+env
+vi 
+ls
+ci status
+ci git log
+ls
+ssh 
+vi .ssh\config
+ls
+ci git log
+ci status
+ci re-add
+vi .gitconfig
+cd C:/Users/xuwei/Scoop/apps/git/2.40.1.windows.1/mingw64/bin/
+ls
+git-credential-manager-ui.exe
+.\git-credential-manager-ui.exe
+git 
+cd
+ls
+vi .gitconfig
+ls
+ssh vps
+cat .ssh\id_rsa.pub
+ssh vps
+vi .ssh\config
+ls
+rsync
+ls
+cd Downloads\
+ls
+cd Compressed\
+ls
+scp xuwei@192.168.33.20:/home/xuwei/docker-registry-ui.tar
+scp xuwei@192.168.33.20:/home/xuwei/docker-registry-ui.tar .
+ls
+scp xuwei@192.168.33.20:/home/xuwei/registry.tar .
+ls
+curl googel.com
+ls
+env
+ls
+vi 
+ls
+scp xuwei@192.168.33.20:/home/xuwei/nexus3.tar .
+ls
+cd
+ls
+vi 
+ls
+sl
+cd 
+cd Github\
+ls
+rm -rf nixos\
+ls
+md Funcs
+ls
+mkdir Funcs
+ls
+cd Funcs\
+ls
+vi imeget.c
+gcc imeget.c
+ls
+vi imeget.c
+g++ imeget.c
+lsls
+vi imeget.py
+ls
+rm imeget.c
+ls
+vi imeget.py
+ls
+python imeget.py
+ls
+cd
+cd OneDrive\Github\
+ls
+cd Capslcok\
+ls
+vi ime.ahk
+ls
+vi Capslock.ahk
+ls
+vi ime.ahk
+ls
+eo .
+ls
+vi $nu.config-path
+ls
+vi $nu.config-path
+ls
+eo .
+cd -
+cd OneDrive\Github\
+ls
+cd Capslcok\
+ls
+eo .
+vi IME.ahk
+ls
+vi Capslock.ahk
+ls
+su
+scoop update * 
+z
+cd
+ls
+scoop update * 
+scoop update
+cm 
+pwsh su
+pwsh -Command su
+scoop list
+scoop 
+ls
+scoop update * 
+scoop update help
+scoop update --help
+scoop update -a
+scoop uninstall windterm
+ls
+env
+ls
+scoop list
+scoop update -a
+scoop status
+ls
+cd OneDrive\Github\
+ls
+cd Capslcok\
+ls
+vi Capslock.ahk
+ls
+vi $nu.config-path
+ls
+ran
+la
+ra
+ls
+vi $nu.config-path
+ls
+ci status
+ci re-add
+ci cd 
+ls
+vi .config\chezmoi\chezmoi.json
+ls
+ci status
+ls
+ci status
+ci diff 
+ls
+ci 
+ci completion 
+ci completion  nushell
+ci managed
+ls
+ci 
+ci status
+ci re-add
+ls
+vi $nu.config-path
+ls
+vi $nu.config-path
+ls
+vi $nu.config-path
+ls
+ls -d
+ls
+l
+ci status
+ls
+cd Github\
+ls
+cd Funcs\
+ls
+vi setip.py
+ls
+conda install netifaces
+ls
+python imeget.py
+python setip.py
+ls
+..
+ls
+mkdir utools
+ls
+cd utools\
+ls
+vi plugin.json
+ls
+vi main.html
+ls
+vi 
+ls
+eo .
+ls
+vi 
+ls
+mv main.html index.html
+vi index.html
+ls
+mkdir pages
+ls
+mv index.html pages
+mv preload.js pages
+ls
+mv pages\preload.js .
+ls
+mv pages\index.html . 
+ls
+rm -rf pages
+ls
+vi plugin.json
+ls
+vi preload.js
+ls
+vi index.html
+ls
+scoop ss rubick
+scoop search rubick
+ls
+cd Github\
+ls
+cd Funcs\
+ls
+..
+ls
+cd utools\
+s
+ls
+node test.js
+vi test.js
+ls
+node test.js
+vi test.js
+ls
+node test.js
+vi test.js
+ls
+..
+ls
+gcl 
+git clone git@github.com:yefengwu/yefengwu.github.io.git
+ls
+cd yefengwu.github.io\
+ls
+touch readme.md
+ls
+lg
+lazygit.exe 
+ls
+vi $nu.config-path
+ls
+vi readme.md
+ls
+lg
+ls
+lg
+ls
+vi readme.md
+ls
+pip install PyQt-Fluent-Widgets -i https://pypi.org/simple/
+cd Github\
+ls
+cd pythonlib\
+ls
+vi demo.py
+ls
+python demo.py
+openssh 
+scoop ss bw
+ls
+python demo.py
+vi gallery.py
+ls
+py 
+python gallery.py
+cd Github\
+ls
+cd pythonlib\
+ls
+npm install -g hexo-cli
+npm fund
+hexo init blog
+ls
+cd blog\
+ls
+hexo new test
+heo g
+hexo g
+ls
+hexo s
+ls
+env
+ls
+env
+ls
+vi _config.yml
+ls
+npm install hexo-deployer-git --save
+hexo clean
+hexo g
+hexo d
+vi _config.yml
+ls
+hexo clean
+hexo d
+hexo g
+hexo d
+vi _config.yml
+ls
+hexo clean
+hexo g
+hexo d
+ls
+mkdir themes/next
+ls
+curl -s https://api.github.com/repos/iissnan/hexo-theme-next/releases/latest | grep tarball_url | cut -d '"' -f 4 | wget -i - -O- | tar -zx -C themes/next --strip-components=1
+ls
+cd themes\
+ls
+cd next\
+ls
+curl -s https://api.github.com/repos/iissnan/hexo-theme-next/releases/latest | grep tarball_url | cut -d '"' -f 4 | wget -i - -O- | tar -zx -C themes/next --strip-components=1
+cd ../..
+ls
+curl -s https://api.github.com/repos/iissnan/hexo-theme-next/releases/latest | grep tarball_url | cut -d '"' -f 4 | wget -i - -O- | tar -zx -C themes/next --strip-components=1
+git clone https://github.com/iissnan/hexo-theme-next themes/next
+cd themes\next\
+ls
+git tag -l
+git branch -v
+...
+ls
+..
+ls
+cd blog\
+ls
+cd blls
+ls
+vi _config.yml
+ls
+hexo clean
+hexo g
+hexo d
+vi _config.yml
+ls
+vi _config.yml
+ls
+vi _config.yml
+hexo clean
+hexo g
+hexo d
+ls
+hexo n chezmoi
+vi source\_posts\chezmoi.md
+ls
+hexo d
+hexo g
+hexo d
+ls
+cd source\_posts\
+ls
+rm chezmoi.md
+ls
+hexo clean
+hexo g
+hexo d
+git config --global --get core.autocrlf
+cd
+ls
+vi .gitconfig
+ls
+dos2unix.exe .gitconfig
+vi .gitconfig
+ls
+ci status
+ci git dif
+ci git diff
+ls
+ci status
+ci Recent\
+ci re-add
+vi .gitconfig
+ls
+ci status
+ls
+ci re-add
+vi .gitconfig
+ls
+ci re-add
+vi .gitconfig
+ls
+git config --list
+vi .gitconfig
+ls
+git config --list
+git config l
+git config rm credential.helper=!"C:/Users/xuwei/Scoop/apps/git/2.41.0.windows.1/mingw64/bin/git-credential-manager-core.exe"
+git config --list
+ci re-add
+la
+git config 
+git config --unset credential
+ls
+vi .gitconfig
+ls
+git config --list --show-origin
+cd C:/Users/xuwei/Scoop/apps/git/2.41.0.windows.1/etc/gitconfig
+cd Scoop\apps\git\2.40.1.windows.1\etc\
+ls
+vi gitconfig
+rm gitconfig
+ls
+cd
+ls
+git config --list --show-origin
+git config --list
+ls
+ci re-add
+ls
+ci status
+ls
+ci 
+ls
+vi .gitconfig
+ls
+cd Github\
+ls
+hexo n chezmoi
+ls
+cd pythonlib\
+ls
+cd bols
+cd blog
+ls
+hexo n chezmoi
+vi source\_posts\chezmoi.md
+ls
+hexo clena
+hexo clean
+hexo g
+hexo d
+vi .gitconfig
+ls
+ls
+hexo d
+vi _config.yml
+ls
+hexo clean
+hexo g
+hexo d
+ls
+cd themes\
+ls
+..
+ls
+..
+ls
+rm -rf blog\
+l
+ls
+cd ..
+ls
+hexo init blog
+ls
+hexo new test
+ls
+cd blog\
+ls
+hexo new test
+hexo g
+ls
+hexo d
+ls
+vi _config.yml
+ls
+hexo g 
+hexo s
+ls
+hexo d
+git config --list
+ls
+hexo clean
+hexo g
+hexo d
+npm install hexo-deployer-git --save
+ls
+hexo d
+ls
+cd
+ls
+cd Scoop\apps\lx-music\
+ls
+cd current\
+ls
+cd resources\
+ls
+cat app.asar
+ls
+cd ..
+ls
+vi install.json
+..
+ls
+..
+ls
+..
+ls
+git config --list
+ci status
+ci git dif 
+ci git diff
+ci diff 
+cd
+ls
+vi .gitconfig
+ls
+ci diff 
+ci re-add
+ci status
+ls
+vi .gitconfig
+ls
+cd OneDrive\Github\Capslcok\
+ls
+vi Capslock.ahk
+ls
+sl
+cd
+ls
+cd Github\blog\
+ls
+git clone -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly
+vi _config.yml
+ls
+npm install hexo-renderer-pug hexo-renderer-stylus
+hexo clean
+hexo g
+hexo d
+vi _config.yml
+ls
+hexo clean
+hexo g
+hexo d
+ls
+cd source\_posts\
+ls
+hexo n chezmoi
+vi chezmoi.md
+ls
+hexo g
+hexo d
+ls
+..
+ls
+..
+ls
+vi _config.butterfly.yml
+ls
+vi _config.butterfly.yml
+ls
+aria2c.exe  ls
+ls
+hexo new page tags
+vi source\tags\index.md
+hexo new page categories
+vi source\categories\index.md
+vi _config.butterfly.yml
+ls
+vi _config.butterfly.yml
+ls
+vi _config.butterfly.yml
+hexo clean
+hexo g
+hexo d
+ls
+vi _config.butterfly.yml
+ls
+hexo clean
+hexo g
+hexo d
+vi _config.butterfly.yml
+ls
+hexo clean
+hexo g
+hexo d
+vi _config.butterfly.yml
+ls
+hexo clean
+hexo g
+vi _config.butterfly.yml
+ls
+hexo g
+hexo d
+vi _config.butterfly.yml
+ls
+cd themes\butterfly\
+ls
+...
+ls
+vi _config.butterfly.yml
+ls
+npm install hexo-renderer-pug hexo-renderer-stylus --save
+vi _config.butterfly.yml
+ls
+hexo clean
+hexo g
+hexo d
+ls
+vi _config.butterfly.yml
+hexo g
+hexo d
+ls
+vi _config.butterfly.yml
+ls
+vi _config.yml
+ls
+sl
+hexo clean
+hexo g
+hexo d
+vi 
+ls
+hexo g
+hexo d
+vi 
+ls
+hexo g
+hexo d
+hexo clean
+hexo g
+hexo d
+vi 
+ls
+vi 
+ls
+sl
+hexo clean
+hexo g
+hexo d
+vi 
+ls
+hexo clean && hexo g && hexo d
+hexo clean; hexo g; hexo d
+ls
+vi 
+ls
+hexo clean; hexo g; hexo d
+ls
+vi 
+l
+hexo clean; hexo g; hexo d
+ls
+..
+ls
+cd frostedflakes\
+ls
+..
+ls
+rm -rf frostedflakes\
+ls
+cd Funcs\
+ls
+..
+ls
+rm -rf Funcs\
+ls
+cd blog\
+l
+ls
+..
+ls
+rm -rf yefengwu.github.io\
+ls
+cd franket\
+ls
+..
+ls
+rm -rf franket\
+ls
+cd pythonlib\
+ls
+vi demo.py
+ls
+scoop install powertoys
+alksdfjalskdfjlaks
+ls
+le
+ls
+env
+ls
+scoop uninstall powertoys
+ls
+python
+ls
+vi demo.py
+python demo.py
+ls
+gh
+gh repo list
+gh auth login
+ls
+gh list
+gh repo list
+ls
+gh 
+gh release list
+gh release
+gh gist list
+gh 
+gh gist show 
+gh gist view 
+ls
+pip install "textual[dev]"
+ls
+vi textual.py
+pythom -m textual
+python -m textual
+ls
+pip list
+pip uninstall textual
+ls
+gh gist view 
+ls
+vi pygithub.py
+ls
+python pygithub.py
+pip install pygithub
+ls
+vi pygithub.py
+ls
+python pygithub.py
+vi pygithub.py
+ls
+python pygithub.py
+vi pygithub.py
+ls
+python pygithub.py
+pip list
+ls
+gh repo 
+ci status
+ci diff 
+ls
+vi pygithub.py
+python pygithub.py
+vi pygithub.py
+ls
+python pygithub.py
+ls
+vi pygithub.py
+ls
+scoop install fvim
+vi 
+ls
+l
+ssl
+ls
+python demo.py
+ls
+python pygithub.py
+ls
+vi 
+ls
+sl
+vi 
+ls
+vi 
+ls
+vi 
+ls
+vi 
+vi
+ls
+vi 
+ls
+vi demo.py
+ls
+env 
+env | grep shell
+export 
+vi 
+ls
+vi 
+ls
+vi 
+ls
+vi 
+ls
+vi 
+ls
+vi 
+ls
+vi 
+l
+vi 
+ls
+vi 
+ls
+ps
+ls
+vi 
+ls
+vi 
+ls
+nu --help
+ls
+ps
+env
+ls
+n
+ls
+ps
+env
+exit
+ls
+python pygithub.py
+ls
+vi 
+ls
+vi 
+ls
+vi 
+ls
+vi 
+ls
+vi 
+ls
+vi 
+ls
+cd
+ls
+sl
+ls
+exit
+ls
+vi $nu.config-path
+ls
+vi $nu.config-path
+ls
+explore 
+explore .
+explore --peek
+explore -i
+ls
+vi $nu.config-path
+ls
+table -h
+ls
+vi $nu.config-path
+ls
+$env.config.table
+echo $env.config.table
+ls
+config nu
+vi $nu.config-path
+carapace _carapace nushell
+ls
+scoop ss carapace 
+pwsh scoop ss carapace _
+pwsh scoop ss carapace 
+pwsh
+ls
+carapace _carapace nushell
+ls
+let-env PATH = ($env.PATH | prepend "C:\Users\xuwei\AppData\Roaming/carapace/bin")
+let-env PATH = ($env.PATH | prepend "C:\\Users\\xuwei\\AppData\\Roamingcarapace/bin")
+let-env PATH = ($env.PATH | prepend "C:\\Users\\xuwei\\AppData\\Roaming\\carapace\\bin")
+prepend
+ls
+config nu
+carapace _carapace nushell
+vi $nu.config-path
+ls
+abd
+adb
+carapace.exe 
+carapace.exe --list
+ls
+s
+vi $nu.config-path
+ls
+vi 
+ls
+exa
+ls
+cd $nu.config-path
+cd $nu
+echo $nu.config-path
+config nu
+ls
+pwd
+cd AppData\Roaming\
+ls
+cd NuGet\ls
+cd nushell\
+ls
+md custom-completions
+mkdir custom-completions
+ls
+cd custom-completions\
+ls
+vi scoop-completions.nu
+ls
+wget https://raw.githubusercontent.com/nushell/nu_scripts/main/custom-completions/scoop/scoop-completions.nu
+ls
+vi scoop-completions.nu
+ls
+lss
+source .\scoop-completions.nu
+ls
+..
+ls
+cd custom-completions\
+ls
+wget https://raw.githubusercontent.com/nushell/nu_scripts/main/custom-completions/git/git-completions.nu
+ls
+source git-completions.nu
+ls
+echo $nu
+ls
+..
+ls
+wget https://raw.githubusercontent.com/nushell/nu_scripts/main/custom-completions/bitwarden-cli/bitwarden-cli-completions.nu
+ls
+mv bitwarden-cli-completions.nu custom-completions\
+ls
+vi config.nu
+ls
+l
+vi config.nu
+nvim config.nu
+ls
+env
+env | grep roaming
+ls
+cd
+ls
+cd .config\
+ls
+cd ..
+ls
+cd -
+ls
+cd
+ls
+cd AppData\Roaming\nushell\
+ls
+mv custom-completions\ ~\.config\
+ls
+cd ~\.config\
+ls
+mkdir nushell 
+ls
+mv custom-completions\ nushell\
+ls
+cd nushell\
+ls
+cd custom-completions\
+ls
+cd ..
+ls
+config nu
+vi $nu.config-path
+echo $env
+vi $nu.config-path
+echo $env:HOMEPATH
+echo $HOMEPATH
+env
+ls
+pwd
+ls
+pwd
+vi $nu.config-path
+ls
+echo $env.APPDATA
+vi $nu.config-path
+ls
+source $env.APPDATA
+ls
+let compath = '$env.HOMEPATH'
+source compath
+ls
+cd custom-completions\
+ls
+pwd
+let compath = '$env.HOMEPATH/.config/nushell/custom-completions'
+source compath
+ls
+use scoop-completions.nu 
+ls
+vi $nu.config-path
+ls
+..
+ls
+..
+ls
+cd nushell\
+ls
+echo $env.APPDATA
+echo $nu.env
+echo $nu.env.HOMEPATH
+echo $nu
+echo $nu.home-path
+cd  $nu.home-path
+cd -
+source $nu.home-path
+ls
+cd
+ls
+echo $nu.home-path
+echo $nu.default-config-dir
+cd  $nu.default-config-dir
+ls
+mv ~\.config\nushell\custom-completions\ .
+ls
+vi $nu.config-path
+ls
+cd  $nu.default-config-dir
+mv ~\.config\nushell\custom-completions\ .
+ls
+cd custom-completions\
+ls
+..
+ls
+ci config.nu
+vi config.nu 
+mv custom-completions\git-completions.nu .
+ls
+vi config.nu 
+ls
+nu git-completions.nu 
+ls
+vi config.nu 
+ls
+vi config.nu 
+ls
+use scoop-completions.nu 
+use git-completions.nu 
+ls
+mv git-completions.nu custom-completions\
+ls
+cd custom-completions\
+ls
+..
+ls
+vi env.nu 
+ls
+cd custom-completions\
+ls
+readlink -f git-completions.nu 
+ls
+readlink -f git-completions.nu | clip.exe 
+ls
+l
+ls
+vi config.nu 
+ls
+cd
+ls
+bw
+ls
+scoop ss bitwarden
+ls
+pwsh scoop ss carapace 
+ls
+config nu
+ls
+ls | explore -
+ls | explore -i
+ls
+ls | explore -i
+ls | explore --peek
+explore -i 
+ls
+ci status
+ci diff
+ls
+cd AppData\Roaming\nushell\
+ls
+..
+ls
+ci nushell\

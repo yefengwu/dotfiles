@@ -177,15 +177,15 @@ let light_theme = {
 }
 
 # External completer example
-# let carapace_completer = {|spans|
-#     carapace $spans.0 nushell $spans | from json
-# }
+let carapace_completer = {|spans|
+    carapace $spans.0 nushell $spans | from json
+}
 
 
 # The default config record. This is where much of your global configuration is setup.
 let-env config = {
   # true or false to enable or disable the welcome banner at startup
-  show_banner: true
+  show_banner: false
   ls: {
     use_ls_colors: true # use the LS_COLORS environment variable to colorize output
     clickable_links: true # enable or disable clickable links. Your terminal has to support links.
@@ -198,7 +198,7 @@ let-env config = {
   }
   table: {
     mode: rounded # basic, compact, compact_double, light, thin, with_love, rounded, reinforced, heavy, none, other
-    index_mode: always # "always" show indexes, "never" show indexes, "auto" = show indexes when a table has "index" column
+    index_mode: never # "always" show indexes, "never" show indexes, "auto" = show indexes when a table has "index" column
     show_empty: true # show 'empty list' and 'empty record' placeholders for command output
     trim: {
       methodology: wrapping # wrapping or truncating
@@ -278,7 +278,7 @@ let-env config = {
     external: {
       enable: true # set to false to prevent nushell looking into $env.PATH to find more suggestions, `false` recommended for WSL users as this look up my be very slow
       max_results: 100 # setting it lower can improve completion performance at the cost of omitting some options
-      completer: null # check 'carapace_completer' above as an example
+      completer: $carapace_completer # check 'carapace_completer' above as an example
     }
   }
   filesize: {
@@ -544,10 +544,16 @@ let-env config = {
   ]
 }
 
+# own config 
+source C:/Users/xuwei/AppData/Roaming/nushell/custom-completions/scoop-completions.nu
+source C:/Users/xuwei/AppData/Roaming/nushell/custom-completions/bitwarden-cli-completions.nu
+
 alias sl = scoop list
 alias vi = nvim
 alias si = scoop install
 alias ci = chezmoi
 alias eo = explorer
-alias gcl = git clone 
 alias lg = lazygit.exe
+alias gcl = git clone 
+alias ga = git add . 
+alias gad = git add . and git commit --amend-no-edit
