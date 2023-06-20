@@ -198,7 +198,7 @@ let-env config = {
   }
   table: {
     mode: rounded # basic, compact, compact_double, light, thin, with_love, rounded, reinforced, heavy, none, other
-    index_mode: never # "always" show indexes, "never" show indexes, "auto" = show indexes when a table has "index" column
+    index_mode: always # "always" show indexes, "never" show indexes, "auto" = show indexes when a table has "index" column
     show_empty: true # show 'empty list' and 'empty record' placeholders for command output
     trim: {
       methodology: wrapping # wrapping or truncating
@@ -278,7 +278,7 @@ let-env config = {
     external: {
       enable: true # set to false to prevent nushell looking into $env.PATH to find more suggestions, `false` recommended for WSL users as this look up my be very slow
       max_results: 100 # setting it lower can improve completion performance at the cost of omitting some options
-      completer: $carapace_completer # check 'carapace_completer' above as an example
+      completer: null # check 'carapace_completer' above as an example
     }
   }
   filesize: {
@@ -298,7 +298,7 @@ let-env config = {
   buffer_editor: "nvim"
   use_ansi_coloring: true
   bracketed_paste: true # enable bracketed paste, currently useless on windows
-  edit_mode: emacs # emacs, vi
+  edit_mode: vi # emacs, vi
   shell_integration: true # enables terminal markers and a workaround to arrow keys stop working issue
   render_right_prompt_on_last_line: false # true or false to enable or disable right prompt to be rendered on last line of the prompt.
 
@@ -449,7 +449,7 @@ let-env config = {
       event: {
         until: [
           { send: menu name: completion_menu }
-          { send: menunext }
+          { edit: complete }
         ]
       }
     }
@@ -547,6 +547,7 @@ let-env config = {
 # own config 
 source C:/Users/xuwei/AppData/Roaming/nushell/custom-completions/scoop-completions.nu
 source C:/Users/xuwei/AppData/Roaming/nushell/custom-completions/bitwarden-cli-completions.nu
+source C:/Users/xuwei/AppData/Roaming/nushell/custom-menu/zoxide-menu.nu
 
 alias sl = scoop list
 alias vi = nvim
@@ -556,4 +557,8 @@ alias eo = explorer
 alias lg = lazygit.exe
 alias gcl = git clone 
 alias ga = git add . 
+alias gd = git diff 
 alias gad = git add . and git commit --amend-no-edit
+alias gst = git status
+alias md = mkdir
+alias z = zoxide
