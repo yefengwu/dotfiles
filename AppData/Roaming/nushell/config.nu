@@ -580,6 +580,7 @@ let-env PROMPT_COMMAND_RIGHT = { ||
 let-env STARSHIP_CONFIG = "C:/Users/xuwei/.config/starship/starship.toml"
 
 alias sl = scoop list
+alias su = scoop update -a
 alias vi = nvim
 alias si = scoop install
 alias ci = chezmoi

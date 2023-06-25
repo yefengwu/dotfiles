@@ -4,15 +4,15 @@
     "actions": 
     [
         {
+            "command": "find",
+            "keys": "ctrl+shift+f"
+        },
+        {
             "command": 
             {
                 "action": "renameTab"
             },
             "keys": "f2"
-        },
-        {
-            "command": "find",
-            "keys": "ctrl+shift+f"
         },
         {
             "command": 
@@ -23,8 +23,12 @@
             "keys": "ctrl+c"
         },
         {
-            "command": "openNewTabDropdown",
-            "keys": "alt+o"
+            "command": 
+            {
+                "action": "newTab",
+                "index": 2
+            },
+            "keys": "ctrl+3"
         },
         {
             "command": 
@@ -34,12 +38,8 @@
             "keys": "ctrl+t"
         },
         {
-            "command": 
-            {
-                "action": "newTab",
-                "index": 2
-            },
-            "keys": "ctrl+3"
+            "command": "openNewTabDropdown",
+            "keys": "alt+o"
         },
         {
             "command": 
@@ -206,6 +206,16 @@
         "list": 
         [
             {
+                "colorScheme": "One Half Dark",
+                "font": 
+                {
+                    "face": "JetBrainsMono NFM"
+                },
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": true,
+                "name": "Windows PowerShell"
+            },
+            {
                 "altGrAliasing": true,
                 "antialiasingMode": "grayscale",
                 "bellStyle": "none",
@@ -286,14 +296,20 @@
                 "tabTitle": "SimpleCom"
             },
             {
-                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-                "hidden": true,
-                "name": "Windows PowerShell"
-            },
-            {
+                "colorScheme": "One Half Dark",
+                "font": 
+                {
+                    "face": "Consolas"
+                },
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": true,
                 "name": "Command Prompt"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": true,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
             }
         ]
     },
