@@ -17,10 +17,9 @@
         {
             "command": 
             {
-                "action": "copy",
-                "singleLine": false
+                "action": "newTab"
             },
-            "keys": "ctrl+c"
+            "keys": "ctrl+t"
         },
         {
             "command": 
@@ -31,15 +30,20 @@
             "keys": "ctrl+3"
         },
         {
-            "command": 
-            {
-                "action": "newTab"
-            },
-            "keys": "ctrl+t"
-        },
-        {
             "command": "openNewTabDropdown",
             "keys": "alt+o"
+        },
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "keys": "ctrl+c"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
         },
         {
             "command": 
@@ -48,10 +52,6 @@
                 "index": 1
             },
             "keys": "ctrl+2"
-        },
-        {
-            "command": "paste",
-            "keys": "ctrl+v"
         },
         {
             "command": "closePane",
@@ -231,7 +231,7 @@
                 "guid": "{46f1d4f7-20f2-433c-b3ee-279382410cad}",
                 "hidden": false,
                 "historySize": 9001,
-                "icon": "C:\\Users\\xuwei\\OneDrive\\\u56fe\u7247\\ICONS\\nushell.png",
+                "icon": "https://s2.loli.net/2023/07/09/9OcweyUfzMJGbPN.png",
                 "intenseTextStyle": "bold",
                 "name": "Nushell",
                 "padding": "8, 8, 8, 8",
@@ -251,7 +251,7 @@
                 },
                 "guid": "{788ce003-4284-4772-91b8-744f4a86cf42}",
                 "hidden": false,
-                "icon": "C:\\Users\\xuwei\\OneDrive\\\u56fe\u7247\\ICONS\\nixos.png",
+                "icon": "https://s2.loli.net/2023/07/09/8eNU4KbOqC2ypgu.png",
                 "name": "NixOS",
                 "padding": "4,2,4,0",
                 "scrollbarState": "hidden",
@@ -271,7 +271,7 @@
                 "guid": "{9515cbdc-aa3a-41d6-9777-3cef926fa714}",
                 "hidden": false,
                 "historySize": 90210,
-                "icon": "C:\\Users\\xuwei\\OneDrive\\\u56fe\u7247\\ICONS\\aliyun.png",
+                "icon": "https://s2.loli.net/2023/06/25/qtUYNcpd4fhBaM3.png",
                 "name": "ALIVPS",
                 "startingDirectory": "%USERPROFILE%",
                 "suppressApplicationTitle": true,
@@ -289,7 +289,7 @@
                 "guid": "{27fcf5bc-56d6-4512-90a4-f56687f98285}",
                 "hidden": false,
                 "historySize": 90210,
-                "icon": "C:\\Users\\xuwei\\OneDrive\\\u56fe\u7247\\ICONS\\serial.ico",
+                "icon": "https://s2.loli.net/2023/07/09/hDSO7KbMdP4EoJx.png",
                 "name": "SimpleCom",
                 "startingDirectory": "%USERPROFILE%",
                 "suppressApplicationTitle": true,
