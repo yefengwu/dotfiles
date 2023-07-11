@@ -579,6 +579,9 @@ let-env PROMPT_COMMAND_RIGHT = { ||
 
 let-env STARSHIP_CONFIG = "C:/Users/xuwei/.config/starship/starship.toml"
 
+# Support zoxide
+source ~/.zoxide.nu
+
 alias su = scoop update -a
 alias vi = nvim
 alias si = scoop install
@@ -591,4 +594,3 @@ alias gd = git diff
 alias gad = git add . and git commit --amend-no-edit
 alias gst = git status
 alias md = mkdir
-alias z = zoxide
