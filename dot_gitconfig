@@ -9,10 +9,7 @@
   rebase = true
 [http]
 	sslverify = false
-[safe]
-	directory = %(prefix)///192.168.1.95/Nixos/nixos
-	directory = %(prefix)///192.168.1.95/Nixos/frostedflakes
 [credential "http://192.168.1.145:3000"]
 	provider = generic
 [core]
-  autocrlf = false
+  autocrlf = true

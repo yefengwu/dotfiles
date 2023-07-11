@@ -87,3 +87,6 @@ let-env NU_PLUGIN_DIRS = [
 # let-env PATH = ($env.PATH | split row (char esep) | prepend '/some/path')
 
 zoxide init nushell | save -f ~/.zoxide.nu
+
+# add editor with nvim 
+let-env EDITOR = "nvim"
