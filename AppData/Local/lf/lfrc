@@ -48,7 +48,7 @@ set cursorpreviewfmt "\033[7m"
 
 cmd mkdir $mkdir -p "$(echo $* | tr ' ' '\ ')"
 cmd trash %trash-put $fx
-cmd open $nvim $fx
+cmd open $nvim %f%
 
 # Movement
 map h updir
