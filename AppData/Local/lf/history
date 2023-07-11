@@ -1,0 +1,18 @@
+: remove
+: delete 
+: delete 
+: delete 
+: nvim 
+: map
+: open 
+: nvim .
+: cmd nvim 
+: cmd nvim 
+: echoerr 
+: cd
+: echoerr 
+: cmd-delete
+: cmd-delete
+: read
+: updir
+: openwith 
