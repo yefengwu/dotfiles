@@ -46,16 +46,15 @@ set cursorpreviewfmt "\033[7m"
 
 # source '~/AppData/Local/lf/opener'
 
-cmd mkdir $mkdir -p "$(echo $* | tr ' ' '\ ')"
 cmd trash %trash-put $fx
-cmd open $nvim %f%
+cmd edit $nvim %f%
 
 # Movement
 map h updir
 map k up
 map j down
 map l open
-map e open
+map e edit
 map { half-up
 map } half-down
 map <c-n> down
@@ -69,4 +68,7 @@ map D delete
 map E extract
 map M moveto
 map P paste_link
+map a 
+map af push $nvim<space>
+map ad push $mkdir<space>
 
