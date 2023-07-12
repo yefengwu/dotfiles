@@ -61,3 +61,12 @@ map } half-down
 map <c-n> down
 map <c-p> up
 
+# Main mappings
+
+map dd cut 
+map p paste
+map D delete
+map E extract
+map M moveto
+map P paste_link
+
