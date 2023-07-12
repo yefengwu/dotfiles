@@ -12,7 +12,8 @@ disabled = true
 [username]
 style_user = "green bold"
 style_root = "black bold"
-format = "[$user]($style) "
+# format = "[$user]($style) "
+format = "xuwei($style) "
 disabled = false
 show_always = true
 
