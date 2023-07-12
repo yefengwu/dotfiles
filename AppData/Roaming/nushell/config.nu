@@ -287,8 +287,8 @@ let-env config = {
   }
   cursor_shape: {
     emacs: blink_block # block, underscore, line, blink_block, blink_underscore, blink_line (line is the default)
-    vi_insert: block # block, underscore, line , blink_block, blink_underscore, blink_line (block is the default)
-    vi_normal: underscore # block, underscore, line, blink_block, blink_underscore, blink_line (underscore is the default)
+    vi_insert: blink_block # block, underscore, line , blink_block, blink_underscore, blink_line (block is the default)
+    vi_normal: block # block, underscore, line, blink_block, blink_underscore, blink_line (underscore is the default)
   }
   color_config: $dark_theme   # if you want a light theme, replace `$dark_theme` to `$light_theme`
   use_grid_icons: true
