@@ -15,8 +15,23 @@
             "keys": "ctrl+shift+f"
         },
         {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "keys": "ctrl+c"
+        },
+        {
             "command": "openNewTabDropdown",
             "keys": "alt+o"
+        },
+        {
+            "command": 
+            {
+                "action": "newTab"
+            },
+            "keys": "ctrl+t"
         },
         {
             "command": 
@@ -29,29 +44,14 @@
         {
             "command": 
             {
-                "action": "newTab"
-            },
-            "keys": "ctrl+t"
-        },
-        {
-            "command": 
-            {
-                "action": "copy",
-                "singleLine": false
-            },
-            "keys": "ctrl+c"
-        },
-        {
-            "command": "paste",
-            "keys": "ctrl+v"
-        },
-        {
-            "command": 
-            {
                 "action": "newTab",
                 "index": 1
             },
             "keys": "ctrl+2"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
         },
         {
             "command": "closePane",
@@ -107,10 +107,6 @@
         },
         {
             "command": "unbound",
-            "keys": "ctrl+comma"
-        },
-        {
-            "command": "unbound",
             "keys": "alt+shift+plus"
         },
         {
@@ -120,6 +116,10 @@
         {
             "command": "unbound",
             "keys": "alt+right"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+`"
         },
         {
             "command": 
@@ -184,7 +184,7 @@
                 "action": "openSettings",
                 "target": "settingsUI"
             },
-            "keys": "ctrl+`"
+            "keys": "ctrl+comma"
         },
         {
             "command": 
@@ -346,18 +346,6 @@
                 "hidden": false,
                 "name": "NixOS",
                 "source": "Windows.Terminal.Wsl"
-            },
-            {
-                "guid": "{df83b65d-cc13-5a7f-8243-e43b7f2d529e}",
-                "hidden": false,
-                "name": "Developer Command Prompt for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{13a9afaa-d3c6-5c5e-bc48-2212a5844b7d}",
-                "hidden": false,
-                "name": "Developer PowerShell for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
             }
         ]
     },
