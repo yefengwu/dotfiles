@@ -15,23 +15,8 @@
             "keys": "ctrl+shift+f"
         },
         {
-            "command": 
-            {
-                "action": "copy",
-                "singleLine": false
-            },
-            "keys": "ctrl+c"
-        },
-        {
             "command": "openNewTabDropdown",
             "keys": "alt+o"
-        },
-        {
-            "command": 
-            {
-                "action": "newTab"
-            },
-            "keys": "ctrl+t"
         },
         {
             "command": 
@@ -44,14 +29,27 @@
         {
             "command": 
             {
+                "action": "newTab"
+            }
+        },
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "keys": "ctrl+c"
+        },
+        {
+            "command": "paste"
+        },
+        {
+            "command": 
+            {
                 "action": "newTab",
                 "index": 1
             },
             "keys": "ctrl+2"
-        },
-        {
-            "command": "paste",
-            "keys": "ctrl+v"
         },
         {
             "command": "closePane",
@@ -120,6 +118,14 @@
         {
             "command": "unbound",
             "keys": "ctrl+`"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+t"
         },
         {
             "command": 
@@ -334,18 +340,6 @@
                 "hidden": true,
                 "name": "Azure Cloud Shell",
                 "source": "Windows.Terminal.Azure"
-            },
-            {
-                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-                "hidden": false,
-                "name": "PowerShell",
-                "source": "Windows.Terminal.PowershellCore"
-            },
-            {
-                "guid": "{c397f356-5e7b-55bc-956b-8cb4b9762c26}",
-                "hidden": false,
-                "name": "NixOS",
-                "source": "Windows.Terminal.Wsl"
             }
         ]
     },
