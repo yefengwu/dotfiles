@@ -511,42 +511,42 @@
 			],
 			"Name": "刷新",
 			"Sign": "DOWN-UP",
-			"Valid": true
+			"Valid": false
 		}, {
 			"Actions": [
 				["SendKeys", "Ctrl+Shift+R"]
 			],
 			"Name": "强制刷新",
 			"Sign": "UP-DOWN",
-			"Valid": true
+			"Valid": false
 		}, {
 			"Actions": [
 				["SendKeys", "Ctrl+W"]
 			],
 			"Name": "关闭标签",
 			"Sign": "DOWN-RIGHT",
-			"Valid": true
+			"Valid": false
 		}, {
 			"Actions": [
 				["SendKeys", "Ctrl+PgDn"]
 			],
 			"Name": "切换到右侧标签",
 			"Sign": "RIGHT-LEFT",
-			"Valid": true
+			"Valid": false
 		}, {
 			"Actions": [
 				["SendKeys", "Ctrl+PgUp"]
 			],
 			"Name": "切换到左侧标签",
 			"Sign": "LEFT-RIGHT",
-			"Valid": true
+			"Valid": false
 		}, {
 			"Actions": [
 				["SendKeys", "Alt+Home"]
 			],
 			"Name": "打开主页",
 			"Sign": "h",
-			"Valid": true
+			"Valid": false
 		}],
 		"Match": ["Chrome.exe", "Firefox.exe", "MicrosoftEdge.exe", "iexplore.exe", "msedge.exe", "safari.exe", "opera.exe", "qqbrowser.exe", "360chrome.exe"],
 		"Name": "浏览器"
@@ -683,14 +683,14 @@
 		],
 		"Name": "复制",
 		"Sign": "UP",
-		"Valid": true
+		"Valid": false
 	}, {
 		"Actions": [
 			["SendKeys", "Ctrl+V"]
 		],
 		"Name": "粘贴",
 		"Sign": "DOWN",
-		"Valid": true
+		"Valid": false
 	}, {
 		"Actions": [
 			["SendKeys", "Forward"]
@@ -718,35 +718,35 @@
 		],
 		"Name": "关闭相似窗口",
 		"Sign": "DOWN-LEFT",
-		"Valid": true
+		"Valid": false
 	}, {
 		"Actions": [
 			["Window", "Maximize"]
 		],
 		"Name": "窗口最大化/还原",
 		"Sign": "/ UP",
-		"Valid": true
+		"Valid": false
 	}, {
 		"Actions": [
 			["Window", "Minimize"]
 		],
 		"Name": "窗口最小化",
 		"Sign": "/ DOWN",
-		"Valid": true
+		"Valid": false
 	}, {
 		"Actions": [
 			["SendKeys", "Escape"]
 		],
 		"Name": "Esc",
 		"Sign": "\\ UP",
-		"Valid": true
+		"Valid": false
 	}, {
 		"Actions": [
 			["SendKeys", "Delete"]
 		],
 		"Name": "Del",
 		"Sign": "\\ DOWN",
-		"Valid": true
+		"Valid": false
 	}, {
 		"Actions": [
 			["SendKeys", "Ctrl+C"],
@@ -754,7 +754,7 @@
 		],
 		"Name": "搜索选中文字",
 		"Sign": "S",
-		"Valid": true
+		"Valid": false
 	}, {
 		"Actions": [
 			["SendKeys", "Ctrl+C"],
@@ -762,7 +762,7 @@
 		],
 		"Name": "ping选中地址",
 		"Sign": "P",
-		"Valid": true
+		"Valid": false
 	}, {
 		"Actions": [
 			["Execute", "notepad.exe %systemroot%\\system32\\drivers\\etc\\hosts", "admin"]
@@ -783,35 +783,35 @@
 		],
 		"Name": "贴图",
 		"Sign": "SQUARE",
-		"Valid": true
+		"Valid": false
 	}, {
 		"Actions": [
 			["Screenshot", "OCR"]
 		],
 		"Name": "OCR",
 		"Sign": "SQUARE 2",
-		"Valid": true
+		"Valid": false
 	}, {
 		"Actions": [
 			["Internal", "Exit"]
 		],
 		"Name": "退出MouseInc",
 		"Sign": "W",
-		"Valid": true
+		"Valid": false
 	}, {
 		"Actions": [
 			["Internal", "Exclude"]
 		],
 		"Name": "排除当前程序",
 		"Sign": "Z",
-		"Valid": true
+		"Valid": false
 	}, {
 		"Actions": [
 			["Internal", "Settings"]
 		],
 		"Name": "设置MouseInc",
 		"Sign": "M",
-		"Valid": true
+		"Valid": false
 	}, {
 		"Actions": [
 			["Execute", "notepad.exe %appdir%\\MouseInc.json", "wait"],
@@ -826,14 +826,14 @@
 		],
 		"Name": "滚轮切换-上",
 		"Sign": "WheelSwitchUp",
-		"Valid": true
+		"Valid": false
 	}, {
 		"Actions": [
 			["SendKeys", "Ctrl+PgDn"]
 		],
 		"Name": "滚轮切换-下",
 		"Sign": "WheelSwitchDown",
-		"Valid": true
+		"Valid": false
 	}],
 	"MouseGesture": {
 		"AddMode": false,
