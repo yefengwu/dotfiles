@@ -625,3 +625,6 @@ alias gd = git diff
 alias gad = git add . and git commit --amend-no-edit
 alias gst = git status
 alias md = mkdir
+def pwd [] {
+  $env.PWD
+}
