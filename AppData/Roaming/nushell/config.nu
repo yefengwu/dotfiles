@@ -628,3 +628,6 @@ alias md = mkdir
 def pwd [] {
   $env.PWD
 }
+def env [] {
+  $env | table
+}
