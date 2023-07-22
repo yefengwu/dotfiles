@@ -15,8 +15,22 @@
             "keys": "ctrl+shift+f"
         },
         {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "keys": "ctrl+c"
+        },
+        {
             "command": "openNewTabDropdown",
             "keys": "alt+o"
+        },
+        {
+            "command": 
+            {
+                "action": "newTab"
+            }
         },
         {
             "command": 
@@ -29,27 +43,14 @@
         {
             "command": 
             {
-                "action": "newTab"
-            }
-        },
-        {
-            "command": 
-            {
-                "action": "copy",
-                "singleLine": false
-            },
-            "keys": "ctrl+c"
-        },
-        {
-            "command": "paste"
-        },
-        {
-            "command": 
-            {
                 "action": "newTab",
                 "index": 1
             },
             "keys": "ctrl+2"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
         },
         {
             "command": "closePane",
@@ -121,11 +122,11 @@
         },
         {
             "command": "unbound",
-            "keys": "ctrl+v"
+            "keys": "ctrl+t"
         },
         {
             "command": "unbound",
-            "keys": "ctrl+t"
+            "keys": "ctrl+shift+v"
         },
         {
             "command": 
