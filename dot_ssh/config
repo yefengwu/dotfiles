@@ -1,10 +1,35 @@
 Host nixos
-    HostName 192.168.194.109
+    HostName 192.168.33.20
     User xuwei
     Port 22
     IdentityFile ~/.ssh/id_ed25519
     ServerAliveInterval 60
     ServerAliveCountMax 999
+
+Host docker
+    HostName 192.168.33.50
+    User docker
+    Port 222
+    IdentityFile ~/.ssh/id_ed25519
+    ServerAliveInterval 60
+    ServerAliveCountMax 999
+
+Host pve
+    HostName 192.168.33.10
+    User xuwei
+    Port 22
+    IdentityFile ~/.ssh/id_ed25519
+    ServerAliveInterval 60
+    ServerAliveCountMax 999
+
+Host net
+    HostName 192.168.33.30
+    User xuwei
+    Port 22
+    IdentityFile ~/.ssh/id_ed25519
+    ServerAliveInterval 60
+    ServerAliveCountMax 999
+
 
 Host vps
     HostName 119.23.149.165
