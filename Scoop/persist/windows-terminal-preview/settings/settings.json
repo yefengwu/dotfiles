@@ -129,6 +129,10 @@
             "keys": "ctrl+shift+v"
         },
         {
+            "command": "unbound",
+            "keys": "alt+enter"
+        },
+        {
             "command": 
             {
                 "action": "splitPane",
@@ -208,6 +212,10 @@
                 "direction": "right"
             },
             "keys": "alt+l"
+        },
+        {
+            "command": "toggleFullscreen",
+            "keys": "ctrl+alt+enter"
         }
     ],
     "alwaysShowTabs": false,
@@ -278,7 +286,8 @@
                 "cursorShape": "filledBox",
                 "font": 
                 {
-                    "face": "JetBrainsMono NFM"
+                    "face": "JetBrainsMono NFM",
+                    "size": 12.0
                 },
                 "guid": "{788ce003-4284-4772-91b8-744f4a86cf42}",
                 "hidden": false,

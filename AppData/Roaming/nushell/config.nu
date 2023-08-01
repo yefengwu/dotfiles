@@ -613,6 +613,7 @@ let-env STARSHIP_CONFIG = "C:/Users/xuwei/.config/starship/starship.toml"
 # Support zoxide
 source ~/.zoxide.nu
 
+alias cat = bat
 alias su = scoop update -a
 alias vi = nvim
 alias si = scoop install
@@ -625,10 +626,10 @@ alias gd = git diff
 alias gad = git add . and git commit --amend-no-edit
 alias gst = git status
 alias md = mkdir
-alias cat = bat
 def pwd [] {
   $env.PWD
 }
 def env [] {
   $env | table
 }
+
