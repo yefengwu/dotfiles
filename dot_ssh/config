@@ -7,6 +7,14 @@ Host nixos
     ServerAliveInterval 60
     ServerAliveCountMax 999
 
+Host arch 
+    HostName 192.168.33.123
+    User xuwei
+    Port 22
+    IdentityFile ~/.ssh/id_ed25519
+    ServerAliveInterval 60
+    ServerAliveCountMax 999
+
 Host docker
     HostName 192.168.33.50
     User docker

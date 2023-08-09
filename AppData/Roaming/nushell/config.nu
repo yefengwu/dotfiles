@@ -563,6 +563,13 @@ let-env config = {
       ]
     }
     {
+      name: clear 
+      modifier: control 
+      keycode: char_l
+      mode: [emacs, vi_normal, vi_insert]
+      event: { send: ClearScreen}
+    }
+    {
       name: fzf_open_file
       modifier: control
       keycode: char_f
