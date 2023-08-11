@@ -282,6 +282,42 @@
                 "useAcrylic": false
             },
             {
+                "bellStyle": "none",
+                "colorScheme": "One Half Dark",
+                "commandline": "ssh arch",
+                "cursorShape": "filledBox",
+                "font": 
+                {
+                    "face": "JetBrainsMono NFM"
+                },
+                "guid": "{07958cba-1da6-4bb7-a185-fab6d5274828}",
+                "hidden": false,
+                "historySize": 90210,
+                "icon": "https://s2.loli.net/2023/08/09/63WosgEm9h1bw2B.png",
+                "name": "Arch",
+                "startingDirectory": "%USERPROFILE%",
+                "suppressApplicationTitle": true,
+                "tabTitle": "Arch"
+            },
+            {
+                "bellStyle": "none",
+                "colorScheme": "One Half Dark",
+                "commandline": "wsl.exe -d Arch",
+                "cursorShape": "filledBox",
+                "font": 
+                {
+                    "face": "JetBrainsMono NFM"
+                },
+                "guid": "{643a5c7d-bb08-4832-9b69-9160c4bedb6f}",
+                "hidden": true,
+                "historySize": 90210,
+                "icon": "https://s2.loli.net/2023/08/09/63WosgEm9h1bw2B.png",
+                "name": "ArchWSL",
+                "startingDirectory": null,
+                "suppressApplicationTitle": true,
+                "tabTitle": "Arch"
+            },
+            {
                 "colorScheme": "One Half Dark",
                 "commandline": "ssh nixos",
                 "cursorShape": "filledBox",
@@ -291,7 +327,7 @@
                     "size": 12.0
                 },
                 "guid": "{788ce003-4284-4772-91b8-744f4a86cf42}",
-                "hidden": false,
+                "hidden": true,
                 "icon": "https://s2.loli.net/2023/07/09/8eNU4KbOqC2ypgu.png",
                 "name": "NixOS",
                 "padding": "4,2,4,0",
@@ -343,7 +379,7 @@
                     "face": "Consolas"
                 },
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-                "hidden": false,
+                "hidden": true,
                 "name": "Command Prompt"
             },
             {
@@ -351,24 +387,6 @@
                 "hidden": true,
                 "name": "Azure Cloud Shell",
                 "source": "Windows.Terminal.Azure"
-            },
-            {
-                "bellStyle": "none",
-                "colorScheme": "One Half Dark",
-                "commandline": "ssh arch",
-                "cursorShape": "filledBox",
-                "font": 
-                {
-                    "face": "JetBrainsMono NFM"
-                },
-                "guid": "{07958cba-1da6-4bb7-a185-fab6d5274828}",
-                "hidden": false,
-                "historySize": 90210,
-                "icon": "https://s2.loli.net/2023/08/09/63WosgEm9h1bw2B.png",
-                "name": "Arch",
-                "startingDirectory": "%USERPROFILE%",
-                "suppressApplicationTitle": true,
-                "tabTitle": "Arch"
             }
         ]
     },

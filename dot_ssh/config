@@ -8,9 +8,9 @@ Host nixos
     ServerAliveCountMax 999
 
 Host arch 
-    HostName 192.168.33.123
+    HostName 119.23.149.165
     User xuwei
-    Port 22
+    Port 10022
     IdentityFile ~/.ssh/id_ed25519
     ServerAliveInterval 60
     ServerAliveCountMax 999

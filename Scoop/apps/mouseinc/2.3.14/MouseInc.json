@@ -887,7 +887,7 @@
 			],
 			"Valid": true
 		},
-		"Open": true,
+		"Open": false,
 		"Right": {
 			"DownActions": [
 				["SetBrightness", "Down"]
