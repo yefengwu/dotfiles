@@ -1,19 +1,19 @@
 {
-  "last_update": "2023-08-11T14:28:09.2002377+08:00",
-  "aria2-warning-enabled": false,
-  "private_hosts": [
-    {
-      "match": "https://github.com/yefengwu/*",
-      "headers": "Authorization=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"
-    }
-  ],
-  "alias": {
-    "rm": "scoop-rm",
-    "st": "scoop-st",
-    "ss": "scoop-ss",
-    "i": "scoop-i"
-  },
-  "aria2-enabled": false,
-  "scoop_branch": "master",
-  "scoop_repo": "https://github.com/ScoopInstaller/Scoop"
+    "last_update":  "2023-12-16T20:49:48.9499735+08:00",
+    "aria2-warning-enabled":  false,
+    "private_hosts":  [
+                          {
+                              "match":  "https://github.com/yefengwu/*",
+                              "headers":  "Authorization=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"
+                          }
+                      ],
+    "alias":  {
+                  "rm":  "scoop-rm",
+                  "st":  "scoop-st",
+                  "ss":  "scoop-ss",
+                  "i":  "scoop-i"
+              },
+    "aria2-enabled":  false,
+    "scoop_branch":  "master",
+    "scoop_repo":  "https://github.com/ScoopInstaller/Scoop"
 }

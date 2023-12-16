@@ -1,6 +1,10 @@
 {
 	"ignored_packages":
 	[
+		"AutoHotkey",
+		"ChineseLocalizations",
+		"LSP",
+		"PowerShell",
 	],
 	"scroll_speed": 0,
 	"hot_exit": "disabled",

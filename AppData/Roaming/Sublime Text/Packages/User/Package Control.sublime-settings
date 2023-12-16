@@ -2,6 +2,10 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"AutoHotkey",
+		"ChineseLocalizations",
+		"LSP",
+		"PowerShell",
 	],
 	"installed_packages":
 	[

@@ -160,7 +160,7 @@
 		}],
 		"Open": false
 	},
-	"Excludes": ["Photoshop.exe", "Cities.exe", "tph.exe"],
+	"Excludes": ["Photoshop.exe", "Cities.exe", "tph.exe", "Raft.exe"],
 	"FastPaste": false,
 	"Gestures": [{
 		"Data": [0, 100, 0, 0],
