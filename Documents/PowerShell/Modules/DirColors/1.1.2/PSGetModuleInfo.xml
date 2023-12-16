@@ -1,0 +1,149 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">DirColors</S>
+      <Version N="Version">1.1.2</Version>
+      <S N="Type">Module</S>
+      <S N="Description">Provides dircolors-like functionality to all System.IO.FilesystemInfo formatters</S>
+      <S N="Author">Dustin L. Howett</S>
+      <S N="CompanyName">DHowett</S>
+      <S N="Copyright">(c) 2017 Dustin L. Howett. All rights reserved.</S>
+      <DT N="PublishedDate">2018-08-13T05:06:03+08:00</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2023-12-16T17:25:36.9585721+08:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://gitlab.howett.net/powershell/DirColors/blob/master/LICENSE</URI>
+      <URI N="ProjectUri">https://gitlab.howett.net/powershell/DirColors</URI>
+      <Nil N="IconUri" />
+      <Obj N="Tags" RefId="3">
+        <TN RefId="2">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>color</S>
+          <S>ansi</S>
+          <S>gci</S>
+          <S>get-childitem</S>
+          <S>dircolors</S>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Workflow</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Format-ColorizedFilename</S>
+                <S>Format-ColorizedLinkTarget</S>
+                <S>Format-ColorizedFilenameAndLinkTarget</S>
+                <S>Import-DirColors</S>
+                <S>Update-DirColors</S>
+                <S>ConvertTo-LSColors</S>
+                <S>ConvertFrom-LSColors</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Format-ColorizedFilename</S>
+                <S>Format-ColorizedLinkTarget</S>
+                <S>Format-ColorizedFilenameAndLinkTarget</S>
+                <S>Import-DirColors</S>
+                <S>Update-DirColors</S>
+                <S>ConvertTo-LSColors</S>
+                <S>ConvertFrom-LSColors</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <Nil N="ReleaseNotes" />
+      <Obj N="Dependencies" RefId="8">
+        <TNRef RefId="2" />
+        <LST />
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="9">
+        <TN RefId="4">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">(c) 2017 Dustin L. Howett. All rights reserved.</S>
+          <S N="description">Provides dircolors-like functionality to all System.IO.FilesystemInfo formatters</S>
+          <S N="requireLicenseAcceptance">False</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">15462</S>
+          <S N="downloadCount">16001</S>
+          <S N="packageSize">9194</S>
+          <S N="published">2018/8/13 5:06:03 +08:00</S>
+          <S N="created">2018/8/13 5:06:03 +08:00</S>
+          <S N="lastUpdated">2023/12/16 6:01:14 +08:00</S>
+          <S N="tags">color ansi gci get-childitem dircolors PSModule PSFunction_Format-ColorizedFilename PSCommand_Format-ColorizedFilename PSFunction_Format-ColorizedLinkTarget PSCommand_Format-ColorizedLinkTarget PSFunction_Format-ColorizedFilenameAndLinkTarget PSCommand_Format-ColorizedFilenameAndLinkTarget PSFunction_Import-DirColors PSCommand_Import-DirColors PSFunction_Update-DirColors PSCommand_Update-DirColors PSFunction_ConvertTo-LSColors PSCommand_ConvertTo-LSColors PSFunction_ConvertFrom-LSColors PSCommand_ConvertFrom-LSColors PSIncludes_Function</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2023-12-16T06:01:14Z</S>
+          <S N="NormalizedVersion">1.1.2</S>
+          <S N="Authors">Dustin L. Howett</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">DirColors.nuspec|DirColors.format.ps1xml|DirColors.psd1|DirColors.psm1|en-US\about_DirColors.help.txt</S>
+          <S N="GUID">d0f72b30-1220-4ee8-9f13-93ff69e6f061</S>
+          <S N="CompanyName">HowettNET</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\xuwei\Documents\PowerShell\Modules\DirColors\1.1.2</S>
+    </MS>
+  </Obj>
+</Objs>
