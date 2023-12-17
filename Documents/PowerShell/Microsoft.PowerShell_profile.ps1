@@ -4,6 +4,7 @@ Invoke-Expression (&starship init powershell)
 
 # Imports the terminal Icons into curernt Instance of PowerShell
 Import-Module -Name Terminal-Icons
+Set-PSReadlineKeyHandler -Key Tab -Function Complete # 设置Tab补全
 
 # 去掉系统自带的alias
 Remove-Item Alias:sl -Force
