@@ -2,6 +2,9 @@ Import-Module DirColors
 $ENV:STARSHIP_CONFIG = "$HOME\.config\starship\starship.toml"
 Invoke-Expression (&starship init powershell)
 
+# Imports the terminal Icons into curernt Instance of PowerShell
+Import-Module -Name Terminal-Icons
+
 # 去掉系统自带的alias
 Remove-Item Alias:sl -Force
 #-------------------------------    Functions END     -------------------------------
@@ -31,6 +34,16 @@ Set-Alias eo explorer.exe
 Set-Alias vi nvim
 Set-Alias lg lazygit
 Set-Alias ci chezmoi.exe
+
+#Fzf (Import the fuzzy finder and set a shortcut key to begin searching)
+Import-Module PSFzf
+Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+f' -PSReadlineChordReverseHistory 'Ctrl+r'
+
+# Utility Command that tells you where the absolute path of commandlets are 
+function which ($command) { 
+ Get-Command -Name $command -ErrorAction SilentlyContinue | 
+ Select-Object -ExpandProperty Path -ErrorAction SilentlyContinue 
+}
 
 # Call zoxide binary, returning the output as UTF-8.
 function global:__zoxide_bin {
