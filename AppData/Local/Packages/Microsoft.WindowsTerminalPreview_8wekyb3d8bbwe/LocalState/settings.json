@@ -4,6 +4,14 @@
     "actions": 
     [
         {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "keys": "ctrl+c"
+        },
+        {
             "command": "unbound",
             "keys": "ctrl+shift+1"
         },
@@ -20,12 +28,8 @@
             "keys": "ctrl+shift+space"
         },
         {
-            "command": 
-            {
-                "action": "copy",
-                "singleLine": false
-            },
-            "keys": "ctrl+c"
+            "command": "paste",
+            "keys": "ctrl+v"
         },
         {
             "command": 
@@ -34,10 +38,6 @@
                 "index": 1
             },
             "keys": "ctrl+2"
-        },
-        {
-            "command": "paste",
-            "keys": "ctrl+v"
         },
         {
             "command": "find",
@@ -61,16 +61,16 @@
             "keys": "ctrl+1"
         },
         {
-            "command": "openNewTabDropdown",
-            "keys": "alt+o"
-        },
-        {
             "command": 
             {
                 "action": "newTab",
                 "index": 2
             },
             "keys": "ctrl+3"
+        },
+        {
+            "command": "openNewTabDropdown",
+            "keys": "alt+o"
         },
         {
             "command": 
@@ -109,7 +109,7 @@
                 "cursorShape": "filledBox",
                 "font": 
                 {
-                    "face": "JetBrainsMono NFM"
+                    "face": "JetBrainsMono Nerd Font"
                 },
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
@@ -117,6 +117,11 @@
                 "source": "Windows.Terminal.PowershellCore"
             },
             {
+                "colorScheme": "One Half Dark",
+                "font": 
+                {
+                    "face": "JetBrainsMono Nerd Font"
+                },
                 "guid": "{843021d3-21c8-54a4-9a96-502e6de7fb88}",
                 "hidden": false,
                 "icon": "C:\\Users\\xuwei\\OneDrive\\Pictures\\ICONS\\serial.png",
@@ -131,7 +136,7 @@
                 "cursorShape": "filledBox",
                 "font": 
                 {
-                    "face": "JetBrainsMono NFM"
+                    "face": "JetBrainsMono Nerd Font"
                 },
                 "guid": "{a0997878-320e-4aab-a902-880b61c73643}",
                 "hidden": false,
