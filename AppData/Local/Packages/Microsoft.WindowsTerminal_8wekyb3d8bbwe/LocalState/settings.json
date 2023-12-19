@@ -1,8 +1,12 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
-    "$schema": "https://aka.ms/terminal-profiles-schema-preview",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
     "actions": 
     [
+        {
+            "command": "openNewTabDropdown",
+            "keys": "alt+o"
+        },
         {
             "command": 
             {
@@ -10,6 +14,14 @@
                 "singleLine": false
             },
             "keys": "ctrl+c"
+        },
+        {
+            "command": 
+            {
+                "action": "newTab",
+                "index": 2
+            },
+            "keys": "ctrl+3"
         },
         {
             "command": "unbound",
@@ -28,16 +40,16 @@
             "keys": "ctrl+shift+space"
         },
         {
-            "command": "paste",
-            "keys": "ctrl+v"
-        },
-        {
             "command": 
             {
                 "action": "newTab",
                 "index": 1
             },
             "keys": "ctrl+2"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
         },
         {
             "command": "find",
@@ -59,18 +71,6 @@
                 "index": 0
             },
             "keys": "ctrl+1"
-        },
-        {
-            "command": 
-            {
-                "action": "newTab",
-                "index": 2
-            },
-            "keys": "ctrl+3"
-        },
-        {
-            "command": "openNewTabDropdown",
-            "keys": "alt+o"
         },
         {
             "command": 
@@ -104,7 +104,7 @@
         [
             {
                 "colorScheme": "One Half Dark",
-                "commandline": "\"C:\\Program Files\\PowerShell\\7-preview\\pwsh.exe\" -nol",
+                "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\" -nol",
                 "cursorColor": "#A0DB60",
                 "cursorShape": "filledBox",
                 "font": 
@@ -115,18 +115,6 @@
                 "hidden": false,
                 "name": "PowerShell",
                 "source": "Windows.Terminal.PowershellCore"
-            },
-            {
-                "colorScheme": "One Half Dark",
-                "font": 
-                {
-                    "face": "JetBrainsMono Nerd Font"
-                },
-                "guid": "{843021d3-21c8-54a4-9a96-502e6de7fb88}",
-                "hidden": false,
-                "icon": "C:\\Users\\xuwei\\OneDrive\\Pictures\\ICONS\\serial.png",
-                "name": "SimpleCom",
-                "source": "SimpleCom"
             },
             {
                 "closeOnExit": "always",
@@ -140,9 +128,16 @@
                 },
                 "guid": "{a0997878-320e-4aab-a902-880b61c73643}",
                 "hidden": false,
-                "icon": "C:\\Users\\xuwei\\OneDrive\\Pictures\\ICONS\\aliyun.png",
+                "icon": "C:\\Users\\frank\\OneDrive\\Pictures\\ICONS\\aliyun.png",
                 "name": "VPS",
                 "startingDirectory": "%USERPROFILE%"
+            },
+            {
+                "guid": "{843021d3-21c8-54a4-9a96-502e6de7fb88}",
+                "hidden": false,
+                "icon": "C:\\Users\\frank\\OneDrive\\Pictures\\ICONS\\serial.png",
+                "name": "SimpleCom",
+                "source": "SimpleCom"
             }
         ]
     },
@@ -331,6 +326,29 @@
             "selectionBackground": "#555753",
             "white": "#D3D7CF",
             "yellow": "#C4A000"
+        },
+        {
+            "background": "#300A24",
+            "black": "#171421",
+            "blue": "#0037DA",
+            "brightBlack": "#767676",
+            "brightBlue": "#08458F",
+            "brightCyan": "#2C9FB3",
+            "brightGreen": "#26A269",
+            "brightPurple": "#A347BA",
+            "brightRed": "#C01C28",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#A2734C",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3A96DD",
+            "foreground": "#FFFFFF",
+            "green": "#26A269",
+            "name": "Ubuntu-20.04-ColorScheme",
+            "purple": "#881798",
+            "red": "#C21A23",
+            "selectionBackground": "#FFFFFF",
+            "white": "#CCCCCC",
+            "yellow": "#A2734C"
         },
         {
             "background": "#000000",
