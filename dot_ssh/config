@@ -15,11 +15,11 @@ Host arch
     ServerAliveInterval 60
     ServerAliveCountMax 999
 
-Host archwsl 
+Host ubuntu 
     HostName 192.168.33.180
     User xuwei
-    Port 2200
-    IdentityFile ~/.ssh/id_ed25519
+    Port 2222
+    IdentityFile ~/.ssh/id_rsa
     ServerAliveInterval 60
     ServerAliveCountMax 999
 

@@ -40,16 +40,16 @@
             "keys": "ctrl+shift+space"
         },
         {
-            "command": "paste",
-            "keys": "ctrl+v"
-        },
-        {
             "command": 
             {
                 "action": "newTab",
                 "index": 1
             },
             "keys": "ctrl+2"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
         },
         {
             "command": "find",
@@ -138,6 +138,20 @@
                 "icon": "C:\\Users\\frank\\OneDrive\\Pictures\\ICONS\\serial.png",
                 "name": "SimpleCom",
                 "source": "SimpleCom"
+            },
+            {
+                "colorScheme": "One Half Dark",
+                "commandline": "tssh ubuntu",
+                "cursorShape": "filledBox",
+                "font": 
+                {
+                    "size": 12.0
+                },
+                "guid": "{0f013f6f-fb2b-407d-8eed-edcad22d8f92}",
+                "hidden": false,
+                "icon": "https://assets.ubuntu.com/v1/49a1a858-favicon-32x32.png",
+                "name": "Ubuntu",
+                "tabTitle": "Ubuntu 20.04.6 LTS"
             }
         ]
     },
