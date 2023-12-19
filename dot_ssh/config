@@ -52,7 +52,7 @@ Host vps
     HostName 119.23.149.165
     User frank
     Port 2332
-    IdentityFile ~/.ssh/id_ed25519
+    IdentityFile ~/.ssh/id_rsa
     ServerAliveInterval 60
 
 Host github.com

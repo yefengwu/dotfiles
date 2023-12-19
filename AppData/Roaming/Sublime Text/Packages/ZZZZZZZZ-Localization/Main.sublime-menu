@@ -1,52 +1,52 @@
 [
     {
-        "caption": "文件(F)", 
         "mnemonic": "F", 
-        "id": "file"
+        "id": "file", 
+        "caption": "文件(F)"
     }, 
     {
-        "caption": "编辑(E)", 
         "mnemonic": "E", 
-        "id": "edit"
+        "id": "edit", 
+        "caption": "编辑(E)"
     }, 
     {
-        "caption": "选择(S)", 
         "mnemonic": "S", 
-        "id": "selection"
+        "id": "selection", 
+        "caption": "选择(S)"
     }, 
     {
-        "caption": "查找(I)", 
         "mnemonic": "I", 
-        "id": "find"
+        "id": "find", 
+        "caption": "查找(I)"
     }, 
     {
-        "caption": "视图(V)", 
         "mnemonic": "V", 
-        "id": "view"
+        "id": "view", 
+        "caption": "视图(V)"
     }, 
     {
-        "caption": "跳转(G)", 
         "mnemonic": "G", 
-        "id": "goto"
+        "id": "goto", 
+        "caption": "跳转(G)"
     }, 
     {
-        "caption": "工具(T)", 
         "mnemonic": "T", 
-        "id": "tools"
+        "id": "tools", 
+        "caption": "工具(T)"
     }, 
     {
-        "caption": "项目(P)", 
         "mnemonic": "P", 
-        "id": "project"
+        "id": "project", 
+        "caption": "项目(P)"
     }, 
     {
-        "caption": "首选项(N)", 
         "mnemonic": "N", 
-        "id": "preferences"
+        "id": "preferences", 
+        "caption": "首选项(N)"
     }, 
     {
-        "caption": "帮助(H)", 
         "mnemonic": "H", 
-        "id": "help"
+        "id": "help", 
+        "caption": "帮助(H)"
     }
 ]

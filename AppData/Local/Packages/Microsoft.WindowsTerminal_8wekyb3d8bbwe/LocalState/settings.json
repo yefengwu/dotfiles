@@ -40,16 +40,16 @@
             "keys": "ctrl+shift+space"
         },
         {
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
+        {
             "command": 
             {
                 "action": "newTab",
                 "index": 1
             },
             "keys": "ctrl+2"
-        },
-        {
-            "command": "paste",
-            "keys": "ctrl+v"
         },
         {
             "command": "find",
@@ -129,7 +129,7 @@
                 "guid": "{a0997878-320e-4aab-a902-880b61c73643}",
                 "hidden": false,
                 "icon": "C:\\Users\\frank\\OneDrive\\Pictures\\ICONS\\aliyun.png",
-                "name": "VPS",
+                "name": "Alivps",
                 "startingDirectory": "%USERPROFILE%"
             },
             {
