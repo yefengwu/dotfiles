@@ -122,7 +122,9 @@
                 "icon": "C:\\Users\\xuwei\\OneDrive\\Pictures\\ICONS\\serial.png",
                 "name": "SimpleCom",
                 "source": "SimpleCom"
-            },{
+            },
+            {{- if eq .chezmoi.hostname "UM690" -}}
+            {
                 "font": 
                 {
                     "face": "Hack Nerd Font",
@@ -136,7 +138,26 @@
                 "suppressApplicationTitle": true,
                 "tabTitle": "Ubuntu1804",
                 "useAtlasEngine": true
-            },]
+            },   
+            {{- else if eq .chezmoi.hostname "laptop" -}}
+            {
+                "closeOnExit": "always",
+                "colorScheme": "One Half Dark",
+                "commandline": "tssh vps",
+                "cursorColor": "#A0DB60",
+                "cursorShape": "filledBox",
+                "font": 
+                {
+                    "face": "JetBrainsMono NFM"
+                },
+                "guid": "{a0997878-320e-4aab-a902-880b61c73643}",
+                "hidden": false,
+                "icon": "C:\\Users\\xuwei\\OneDrive\\Pictures\\ICONS\\aliyun.png",
+                "name": "VPS",
+                "startingDirectory": "%USERPROFILE%"
+            }
+            {{- end -}}
+        ]
     },
     "schemes": 
     [
