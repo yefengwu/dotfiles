@@ -33,7 +33,7 @@ Host net
 
 Host vps
     HostName 119.23.149.165
-    User frank
+    User xuwei
     Port 2332
     IdentityFile ~/.ssh/id_ed25519
     ServerAliveInterval 60
