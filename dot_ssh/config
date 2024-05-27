@@ -7,7 +7,7 @@ Host ubuntu
     ServerAliveCountMax 999
 
 Host docker
-    HostName 192.168.33.50
+    HostName 192.168.0.50
     User docker
     Port 222
     IdentityFile ~/.ssh/id_ed25519
@@ -15,7 +15,7 @@ Host docker
     ServerAliveCountMax 999
 
 Host pve
-    HostName 192.168.33.10
+    HostName 192.168.0.10
     User root
     Port 22
     IdentityFile ~/.ssh/id_ed25519
@@ -23,7 +23,7 @@ Host pve
     ServerAliveCountMax 999
 
 Host net
-    HostName 192.168.33.30
+    HostName 192.168.0.30
     User xuwei
     Port 22
     IdentityFile ~/.ssh/id_ed25519
