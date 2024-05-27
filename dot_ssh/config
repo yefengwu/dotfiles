@@ -1,24 +1,7 @@
-Host nixos
-    HostName 192.168.33.20
+Host ubuntu
+    HostName 10.8.0.2
     User xuwei
-    Port 22
-    IdentityFile ~/.ssh/id_ed25519
-    LocalForward 8888 localhost:8888
-    ServerAliveInterval 60
-    ServerAliveCountMax 999
-
-Host arch 
-    HostName 192.168.33.121
-    User xuwei
-    Port 22
-    IdentityFile ~/.ssh/id_ed25519
-    ServerAliveInterval 60
-    ServerAliveCountMax 999
-
-Host archwsl 
-    HostName 192.168.33.180
-    User xuwei
-    Port 2200
+    Port 6922
     IdentityFile ~/.ssh/id_ed25519
     ServerAliveInterval 60
     ServerAliveCountMax 999
