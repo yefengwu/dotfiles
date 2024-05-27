@@ -2,7 +2,7 @@
 	email = franklxw@outlook.com
 	name = xuwei
 [credential]
-  helper=!"C:/Users/xuwei/Scoop/apps/git/2.41.0.windows.1/mingw64/bin/git-credential-manager.exe"
+  helper=!"C:/Users/xuwei/Scoop/apps/git/current/mingw64/bin/git-credential-manager.exe"
 [init]
 	defaultBranch = main
 [pull]
