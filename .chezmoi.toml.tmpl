@@ -2,11 +2,14 @@ sourceDir = "~/.local/share/chezmoi"
 encryption = "age"
 
 [git]
-  autoPush = true
+    autoPush = true
 [cd]
-  command = "pwsh"
+    command = "pwsh"
 [edit]
-  command = "nvim"
+    command = "nvim"
+[interpreters.ps1]
+    command = "pwsh"
+    args = ["-NoLogo"]
 [age]
     identity = "~/.config/chezmoi/key.txt"
     recipient = "age1eshf8qnemzywk903xlp6c6p5px2leq86uf0k55gry9esmyxn5f0qhvglyk"

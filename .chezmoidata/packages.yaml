@@ -1,0 +1,10 @@
+packages:
+    scoop: 
+        self: [git,7zip,aria2,scoop-completion,scoop-search,lazygit]
+        terminal: [zoxide,lazygit,delta,tssh,trzsz,lf]
+        font: [FiraCode-NF,FiraCode-NF-Mono,Hack-NF]
+        editor: [neovim,sublime-text]
+        tools: [autohotkey,dropit,filezilla,ffmpeg,firefox,winscp,zotero,telegram,ventoy,verysync,wepe,busybox]
+        pkgmanage: [vcredist2010,vcredist2012,miniconda3,nodejs,npm-completion]
+    winget: 
+        - [SimpleCom]

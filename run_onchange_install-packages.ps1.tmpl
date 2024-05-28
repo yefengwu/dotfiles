@@ -1,0 +1,10 @@
+{{- if eq .chezmoi.os "windows" -}}
+    {{ $scoopPackages := .packages.scoop }}
+    {{ range concat $scoopPackages.self $scoopPackages.terminal $scoopPackages.font $scoopPackages.editor $scoopPackages.tools $scoopPackages.pkgmanage}}
+    scoop install {{ . | quote }}
+    {{ end -}}
+
+    {{ range .packages.winget -}}
+    winget install {{ . | quote }}
+    {{ end -}}
+{{- end -}}
