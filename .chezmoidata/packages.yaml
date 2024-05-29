@@ -1,7 +1,7 @@
 packages:
     scoop: 
         self: [git,7zip,aria2,scoop-completion,scoop-search,lazygit]
-        terminal: [zoxide,lazygit,delta,tssh,trzsz,lf]
+        terminal: [zoxide,lazygit,delta,tssh,trzsz,lf,fd]
         font: [FiraCode-NF,FiraCode-NF-Mono,Hack-NF]
         editor: [neovim,sublime-text]
         tools: [autohotkey,dropit,filezilla,ffmpeg,firefox,winscp,zotero,telegram,ventoy,verysync,wepe,busybox]
