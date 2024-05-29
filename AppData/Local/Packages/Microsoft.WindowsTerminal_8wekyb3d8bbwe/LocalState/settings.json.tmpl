@@ -122,7 +122,9 @@
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
                 "name": "PowerShell",
-                "source": "Windows.Terminal.PowershellCore"
+                "source": "Windows.Terminal.PowershellCore",
+                "suppressApplicationTitle": true
+
             },
             {{ if eq .chezmoi.hostname "UM690" -}}
             {
@@ -156,7 +158,9 @@
                 "hidden": false,
                 "icon": "https://pic.imgdb.cn/item/65b74335871b83018a2d8c4e.png",
                 "name": "Ubuntu1804",
-                "startingDirectory": "%USERPROFILE%"
+                "startingDirectory": "%USERPROFILE%",
+                "suppressApplicationTitle": true
+
             },
             {{ end -}}
             {
@@ -180,7 +184,9 @@
                 "hidden": false,
                 "icon": "https://pic.imgdb.cn/item/65b74335871b83018a2d8c4e.png",
                 "name": "VPS",
-                "startingDirectory": "%USERPROFILE%"
+                "startingDirectory": "%USERPROFILE%",
+                "suppressApplicationTitle": true
+
             },
             {
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
