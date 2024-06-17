@@ -1,0 +1,41 @@
+[user]
+	email = franklxw@outlook.com
+	name = xuwei
+[credential]
+  helper=!"C:/Users/xuwei/Scoop/apps/git/current/mingw64/bin/git-credential-manager.exe"
+[init]
+	defaultBranch = main
+[pull]
+  rebase = true
+[http]
+	sslverify = false
+[credential "http://192.168.1.145:3000"]
+	provider = generic
+[core]
+  autocrlf = false
+
+[pager]
+  diff = delta
+  log = delta
+  reflog = delta
+  show = delta
+
+[interactive]
+    diffFilter = delta --color-only --features=interactive
+
+[delta]
+    features = decorations
+    side-by-side = true
+
+[delta "interactive"]
+    keep-plus-minus-markers = false
+
+[delta "decorations"]
+    commit-decoration-style = blue ol
+    commit-style = raw
+    file-style = omit
+    hunk-header-decoration-style = blue box
+    hunk-header-file-style = red
+    hunk-header-line-number-style = "#067a00"
+    hunk-header-style = file line-number syntax
+
