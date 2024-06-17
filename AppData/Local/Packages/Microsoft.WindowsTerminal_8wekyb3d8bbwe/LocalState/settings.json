@@ -1,16 +1,8 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
-    "$schema": "https://aka.ms/terminal-profiles-schema", 
+    "$schema": "https://aka.ms/terminal-profiles-schema",
     "actions": 
     [
-        {
-            "command":
-            {
-                "action": "copy",
-                "singleLine": false
-            },
-            "keys": "ctrl+c"
-        },
         {
             "command": "unbound",
             "keys": "ctrl+shift+1"
@@ -36,6 +28,10 @@
             "keys": "ctrl+c"
         },
         {
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
+        {
             "command": 
             {
                 "action": "newTab",
@@ -50,10 +46,6 @@
                 "index": 3
             },
             "keys": "ctrl+4"
-        },
-        {
-            "command": "paste",
-            "keys": "ctrl+v"
         },
         {
             "command": "find",
@@ -71,6 +63,21 @@
         {
             "command": 
             {
+                "action": "scrollDown"
+            },
+            "keys": "pgdn"
+        },
+        {
+            "command": 
+            {
+                "action": "newTab",
+                "index": 0
+            },
+            "keys": "ctrl+1"
+        },
+        {
+            "command": 
+            {
                 "action": "scrollUp"
             },
             "keys": "pgup"
@@ -78,9 +85,9 @@
         {
             "command": 
             {
-                "action": "scrollDown"
+                "action": "closeTab"
             },
-            "keys": "pgdn"
+            "keys": "ctrl+f4"
         },
         {
             "command": "scrollDownPage",
@@ -94,28 +101,13 @@
             "command": 
             {
                 "action": "newTab",
-                "index": 0
-            },
-            "keys": "ctrl+1"
-        },
-        {
-            "command": "openNewTabDropdown",
-            "keys": "alt+o"
-        },
-        {
-            "command": 
-            {
-                "action": "newTab",
                 "index": 2
             },
             "keys": "ctrl+3"
         },
         {
-            "command": 
-            {
-                "action": "closeTab"
-            },
-            "keys": "ctrl+f4"
+            "command": "openNewTabDropdown",
+            "keys": "alt+o"
         }
     ],
     "confirmCloseAllTabs": true,
@@ -154,11 +146,10 @@
                 "name": "PowerShell",
                 "source": "Windows.Terminal.PowershellCore",
                 "suppressApplicationTitle": true
-
             },
-            {{ if eq .chezmoi.hostname "UM690" -}}
             {
                 "colorScheme": "One Half Dark",
+                "commandline": "tssh ubuntu",
                 "font": 
                 {
                     "face": "JetBrainsMono NFM",
@@ -166,37 +157,17 @@
                 },
                 "guid": "{24a0533e-913b-5f8c-a5cb-6be85a4c9e70}",
                 "hidden": false,
-                "icon": "https://pic.imgdb.cn/item/65ee64959f345e8d0367fb42.png",
+                "icon": "https://at.yefengx.top/p/Resources/icons/ubuntu.png",
                 "name": "Ubuntu1804",
                 "source": "CanonicalGroupLimited.Ubuntu18.04LTS_79rhkp1fndgsc",
                 "suppressApplicationTitle": true,
                 "tabTitle": "Ubuntu1804",
                 "useAtlasEngine": true
-            },   
-            {{ else -}}
-            {
-                "closeOnExit": "always",
-                "colorScheme": "One Half Dark",
-                "commandline": "tssh ubuntu",
-                "cursorColor": "#A0DB60",
-                "cursorShape": "filledBox",
-                "font": 
-                {
-                    "face": "JetBrainsMono NFM"
-                },
-                "guid": "{124090a8-a335-4859-bda7-fedbb1aad951}",
-                "hidden": false,
-                "icon": "https://pic.imgdb.cn/item/65b74335871b83018a2d8c4e.png",
-                "name": "Ubuntu1804",
-                "startingDirectory": "%USERPROFILE%",
-                "suppressApplicationTitle": true
-
             },
-            {{ end -}}
             {
                 "guid": "{843021d3-21c8-54a4-9a96-502e6de7fb88}",
                 "hidden": false,
-                "icon": "https://pic.imgdb.cn/item/65b743c6871b83018a30069a.webp",
+                "icon": "https://at.yefengx.top/p/Resources/icons/serial.png",
                 "name": "SimpleCom",
                 "source": "SimpleCom"
             },
@@ -212,11 +183,10 @@
                 },
                 "guid": "{a0997878-320e-4aab-a902-880b61c73643}",
                 "hidden": false,
-                "icon": "https://pic.imgdb.cn/item/65b74335871b83018a2d8c4e.png",
+                "icon": "https://at.yefengx.top/p/Resources/icons/aliyun.png",
                 "name": "VPS",
                 "startingDirectory": "%USERPROFILE%",
                 "suppressApplicationTitle": true
-
             },
             {
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
@@ -232,7 +202,7 @@
     },
     "schemes": 
     [
-    {
+        {
             "background": "#0C0C0C",
             "black": "#0C0C0C",
             "blue": "#0037DA",
@@ -479,6 +449,29 @@
             "foreground": "#FFFFFF",
             "green": "#26A269",
             "name": "Ubuntu-22.04-ColorScheme",
+            "purple": "#881798",
+            "red": "#C21A23",
+            "selectionBackground": "#FFFFFF",
+            "white": "#CCCCCC",
+            "yellow": "#A2734C"
+        },
+        {
+            "background": "#300A24",
+            "black": "#171421",
+            "blue": "#0037DA",
+            "brightBlack": "#767676",
+            "brightBlue": "#08458F",
+            "brightCyan": "#2C9FB3",
+            "brightGreen": "#26A269",
+            "brightPurple": "#A347BA",
+            "brightRed": "#C01C28",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#A2734C",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3A96DD",
+            "foreground": "#FFFFFF",
+            "green": "#26A269",
+            "name": "Ubuntu-24.04-ColorScheme",
             "purple": "#881798",
             "red": "#C21A23",
             "selectionBackground": "#FFFFFF",
