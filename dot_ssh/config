@@ -30,7 +30,6 @@ Host net
     ServerAliveInterval 60
     ServerAliveCountMax 999
 
-
 Host vps
     HostName 119.23.149.165
     User xuwei

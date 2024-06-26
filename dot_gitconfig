@@ -6,19 +6,19 @@
 [init]
 	defaultBranch = main
 [pull]
-  rebase = true
+    rebase = true
 [http]
 	sslverify = false
 [credential "http://192.168.1.145:3000"]
 	provider = generic
 [core]
-  autocrlf = false
+    autocrlf = false
 
 [pager]
-  diff = delta
-  log = delta
-  reflog = delta
-  show = delta
+      diff = delta
+      log = delta
+      reflog = delta
+      show = delta
 
 [interactive]
     diffFilter = delta --color-only --features=interactive
