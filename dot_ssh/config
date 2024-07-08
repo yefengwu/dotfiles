@@ -6,8 +6,8 @@ Host ubuntu
     ServerAliveInterval 60
     ServerAliveCountMax 999
 
-Host docker
-    HostName 192.168.0.50
+Host nasserver
+    HostName 10.8.0.6
     User docker
     Port 222
     IdentityFile ~/.ssh/id_ed25519

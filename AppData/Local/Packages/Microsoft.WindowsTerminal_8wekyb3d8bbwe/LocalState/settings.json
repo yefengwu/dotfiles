@@ -199,6 +199,23 @@
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": true,
                 "name": "Command Prompt"
+            },
+            {
+                "colorScheme": "One Half Dark",
+                "commandline": "tssh nasserver",
+                "cursorShape": "filledBox",
+                "font": 
+                {
+                    "face": "JetBrainsMono NFM",
+                    "size": 12.0
+                },
+                "guid": "{fcc25cb5-e764-4908-97c8-637f5490dd6a}",
+                "hidden": false,
+                "icon": "https://at.yefengx.top/d/Resources/icons/PVE.png",
+                "name": "NasServer",
+                "suppressApplicationTitle": true,
+                "tabTitle": "NasServer",
+                "useAtlasEngine": true
             }
         ]
     },
