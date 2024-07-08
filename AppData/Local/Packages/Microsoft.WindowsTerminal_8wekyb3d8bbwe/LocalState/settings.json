@@ -4,6 +4,14 @@
     "actions": 
     [
         {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "keys": "ctrl+c"
+        },
+        {
             "command": "unbound",
             "keys": "ctrl+shift+1"
         },
@@ -20,16 +28,8 @@
             "keys": "ctrl+shift+space"
         },
         {
-            "command": 
-            {
-                "action": "copy",
-                "singleLine": false
-            },
-            "keys": "ctrl+c"
-        },
-        {
-            "command": "paste",
-            "keys": "ctrl+v"
+            "command": "unbound",
+            "keys": "ctrl+shift+4"
         },
         {
             "command": 
@@ -40,6 +40,10 @@
             "keys": "ctrl+2"
         },
         {
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
+        {
             "command": 
             {
                 "action": "newTab",
@@ -48,8 +52,23 @@
             "keys": "ctrl+4"
         },
         {
+            "command": 
+            {
+                "action": "newTab",
+                "index": 3
+            },
+            "keys": "ctrl+5"
+        },
+        {
             "command": "find",
             "keys": "ctrl+shift+f"
+        },
+        {
+            "command": 
+            {
+                "action": "scrollDown"
+            },
+            "keys": "pgdn"
         },
         {
             "command": 
@@ -63,9 +82,9 @@
         {
             "command": 
             {
-                "action": "scrollDown"
+                "action": "scrollUp"
             },
-            "keys": "pgdn"
+            "keys": "pgup"
         },
         {
             "command": 
@@ -76,11 +95,8 @@
             "keys": "ctrl+1"
         },
         {
-            "command": 
-            {
-                "action": "scrollUp"
-            },
-            "keys": "pgup"
+            "command": "scrollDownPage",
+            "keys": "ctrl+pgdn"
         },
         {
             "command": 
@@ -90,12 +106,12 @@
             "keys": "ctrl+f4"
         },
         {
-            "command": "scrollDownPage",
-            "keys": "ctrl+pgdn"
-        },
-        {
             "command": "scrollUpPage",
             "keys": "ctrl+pgup"
+        },
+        {
+            "command": "openNewTabDropdown",
+            "keys": "alt+o"
         },
         {
             "command": 
@@ -104,10 +120,6 @@
                 "index": 2
             },
             "keys": "ctrl+3"
-        },
-        {
-            "command": "openNewTabDropdown",
-            "keys": "alt+o"
         }
     ],
     "confirmCloseAllTabs": true,
@@ -191,16 +203,6 @@
                 "suppressApplicationTitle": true
             },
             {
-                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-                "hidden": true,
-                "name": "Windows PowerShell"
-            },
-            {
-                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-                "hidden": true,
-                "name": "Command Prompt"
-            },
-            {
                 "colorScheme": "One Half Dark",
                 "commandline": "tssh nasserver",
                 "cursorShape": "filledBox",
@@ -216,6 +218,16 @@
                 "suppressApplicationTitle": true,
                 "tabTitle": "NasServer",
                 "useAtlasEngine": true
+            },
+            {
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": true,
+                "name": "Windows PowerShell"
+            },
+            {
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": true,
+                "name": "Command Prompt"
             }
         ]
     },
