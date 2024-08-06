@@ -22,14 +22,6 @@ Host pve
     ServerAliveInterval 60
     ServerAliveCountMax 999
 
-Host net
-    HostName 192.168.0.30
-    User xuwei
-    Port 22
-    IdentityFile ~/.ssh/id_ed25519
-    ServerAliveInterval 60
-    ServerAliveCountMax 999
-
 Host vps
     HostName 119.23.149.165
     User xuwei

@@ -40,6 +40,7 @@ alias cat = bat
 alias su = scoop update -a
 alias vi = nvim
 alias si = scoop install
+alias sl = scoop list
 alias ci = chezmoi
 alias eo = explorer
 alias lg = lazygit.exe
