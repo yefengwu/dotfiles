@@ -2,7 +2,7 @@ $env.config = {
   show_banner: false,
 }
 # starship
-let starship = 'C:\Program Files\starship\bin\starship.exe'
+let starship = 'C:\Users\xuwei\Scoop\shims\starship.exe'
 $env.STARSHIP_SHELL = "nu"
 $env.STARSHIP_SESSION_KEY = (random chars -l 16)
 $env.PROMPT_MULTILINE_INDICATOR = (^$starship prompt --continuation)
