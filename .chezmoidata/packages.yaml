@@ -1,7 +1,7 @@
 packages:
     bucket: [nerd-fonts]
     scoop: 
-        self: [git,7zip,aria2,nu,scoop-completion,scoop-search]
+        self: [git,7zip,aria2,nu,gsudo,scoop-completion,scoop-search]
         terminal: [starship,zoxide,lazygit,delta,tssh,trzsz,lf,fd,fzf]
         font: [FiraCode-NF,FiraCode-NF-Mono,Hack-NF]
         editor: [neovim,sublime-text]
