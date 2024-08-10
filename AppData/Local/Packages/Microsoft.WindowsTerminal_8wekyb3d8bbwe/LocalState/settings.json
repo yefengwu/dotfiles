@@ -183,7 +183,7 @@
             },
             {
                 "colorScheme": "One Half Dark",
-                "commandline": "tssh ubuntu",
+                "commandline": "wsl -d Ubuntu-18.04 -u xuwei",
                 "font": 
                 {
                     "face": "JetBrainsMono NFM",
@@ -194,17 +194,10 @@
                 "icon": "C:\\Users\\xuwei\\OneDrive\\Pictures\\icons\\ubuntu.png",
                 "name": "Ubuntu1804",
                 "source": "CanonicalGroupLimited.Ubuntu18.04LTS_79rhkp1fndgsc",
+                "startingDirectory": "\\\\wsl.localhost\\Ubuntu-18.04\\home\\xuwei",
                 "suppressApplicationTitle": true,
                 "tabTitle": "Ubuntu1804",
                 "useAtlasEngine": true
-            },
-            {
-                "colorScheme": "One Half Dark",
-                "guid": "{843021d3-21c8-54a4-9a96-502e6de7fb88}",
-                "hidden": false,
-                "icon": "C:\\Users\\xuwei\\OneDrive\\Pictures\\icons\\serial.png",
-                "name": "SimpleCom",
-                "source": "SimpleCom"
             },
             {
                 "closeOnExit": "always",
@@ -524,6 +517,29 @@
             "foreground": "#FFFFFF",
             "green": "#26A269",
             "name": "Ubuntu-24.04-ColorScheme",
+            "purple": "#881798",
+            "red": "#C21A23",
+            "selectionBackground": "#FFFFFF",
+            "white": "#CCCCCC",
+            "yellow": "#A2734C"
+        },
+        {
+            "background": "#300A24",
+            "black": "#171421",
+            "blue": "#0037DA",
+            "brightBlack": "#767676",
+            "brightBlue": "#08458F",
+            "brightCyan": "#2C9FB3",
+            "brightGreen": "#26A269",
+            "brightPurple": "#A347BA",
+            "brightRed": "#C01C28",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#A2734C",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3A96DD",
+            "foreground": "#FFFFFF",
+            "green": "#26A269",
+            "name": "Ubuntu-ColorScheme",
             "purple": "#881798",
             "red": "#C21A23",
             "selectionBackground": "#FFFFFF",
