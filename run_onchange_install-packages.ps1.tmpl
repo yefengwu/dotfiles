@@ -1,10 +1,11 @@
 {{- if eq .chezmoi.os "windows" -}}
+    {{ $scoopBucket := .packages.bucket}}
+    {{ range $scoopBucket -}}
+    scoop bucket add {{ . | quote }}
+    scoop bucket add lzwme_scoop-proxy-cn https://github.com/lzwme/scoop-proxy-cn
+    {{ end -}}
     {{ $scoopPackages := .packages.scoop }}
     {{ range concat $scoopPackages.self $scoopPackages.terminal $scoopPackages.font $scoopPackages.editor $scoopPackages.tools $scoopPackages.pkgmanage}}
     scoop install {{ . | quote }}
-    {{ end -}}
-
-    {{ range .packages.winget -}}
-    winget install {{ . | quote }}
     {{ end -}}
 {{- end -}}

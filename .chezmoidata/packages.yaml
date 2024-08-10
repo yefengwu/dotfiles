@@ -1,10 +1,11 @@
 packages:
+    bucket: [nerd-fonts]
     scoop: 
-        self: [git,7zip,aria2,scoop-completion,scoop-search,lazygit]
-        terminal: [zoxide,lazygit,delta,tssh,trzsz,lf,fd]
+        self: [git,7zip,aria2,nu,scoop-completion,scoop-search]
+        terminal: [starship,zoxide,lazygit,delta,tssh,trzsz,lf,fd,fzf]
         font: [FiraCode-NF,FiraCode-NF-Mono,Hack-NF]
         editor: [neovim,sublime-text]
-        tools: [autohotkey,dropit,filezilla,ffmpeg,firefox,winscp,zotero,telegram,ventoy,verysync,wepe,busybox]
+        tools: [autohotkey,dropit,filezilla,ffmpeg,firefox,winscp,zotero,telegram,ventoy]
         pkgmanage: [vcredist2010,vcredist2012,miniconda3,nodejs,npm-completion]
     winget: 
         - [SimpleCom]
