@@ -1,8 +1,7 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": 
-    [
+    "actions": [
         {
             "command": "unbound",
             "keys": "ctrl+shift+1"
@@ -28,8 +27,7 @@
             "keys": "ctrl+shift+5"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "copy",
                 "singleLine": false
             },
@@ -40,24 +38,21 @@
             "keys": "ctrl+v"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "newTab",
                 "index": 1
             },
             "keys": "ctrl+2"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "newTab",
                 "index": 3
             },
             "keys": "ctrl+4"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "newTab",
                 "index": 4
             },
@@ -68,8 +63,7 @@
             "keys": "ctrl+shift+f"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "splitPane",
                 "split": "auto",
                 "splitMode": "duplicate"
@@ -77,30 +71,26 @@
             "keys": "alt+shift+d"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "scrollDown"
             },
             "keys": "pgdn"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "newTab",
                 "index": 0
             },
             "keys": "ctrl+1"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "scrollUp"
             },
             "keys": "pgup"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "closeTab"
             },
             "keys": "ctrl+f4"
@@ -114,8 +104,7 @@
             "keys": "ctrl+pgup"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "newTab",
                 "index": 2
             },
@@ -131,31 +120,25 @@
     "copyOnSelect": false,
     "defaultProfile": "{0ceff23f-ce25-4e23-a2da-0f83f9a6fc11}",
     "launchMode": "maximized",
-    "newTabMenu": 
-    [
+    "newTabMenu": [
         {
             "type": "remainingProfiles"
         }
     ],
-    "profiles": 
-    {
-        "defaults": 
-        {
-            "font": 
-            {
+    "profiles": {
+        "defaults": {
+            "font": {
                 "face": "JetBrainsMono NFM"
             },
             "historySize": 99999
         },
-        "list": 
-        [
+        "list": [
             {
                 "colorScheme": "One Half Dark",
                 "commandline": "nu",
                 "cursorColor": "#A0DB60",
                 "cursorShape": "filledBox",
-                "font": 
-                {
+                "font": {
                     "face": "JetBrainsMono NFM"
                 },
                 "guid": "{0ceff23f-ce25-4e23-a2da-0f83f9a6fc11}",
@@ -168,24 +151,8 @@
             },
             {
                 "colorScheme": "One Half Dark",
-                "commandline": "pwsh -nol",
-                "cursorColor": "#A0DB60",
-                "cursorShape": "filledBox",
-                "font": 
-                {
-                    "face": "JetBrainsMono NFM"
-                },
-                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-                "hidden": false,
-                "name": "PowerShell",
-                "source": "Windows.Terminal.PowershellCore",
-                "suppressApplicationTitle": true
-            },
-            {
-                "colorScheme": "One Half Dark",
                 "commandline": "wsl -d Ubuntu-18.04 -u xuwei",
-                "font": 
-                {
+                "font": {
                     "face": "JetBrainsMono NFM",
                     "size": 12.0
                 },
@@ -205,8 +172,7 @@
                 "commandline": "tssh vps",
                 "cursorColor": "#A0DB60",
                 "cursorShape": "filledBox",
-                "font": 
-                {
+                "font": {
                     "face": "JetBrainsMono NFM"
                 },
                 "guid": "{a0997878-320e-4aab-a902-880b61c73643}",
@@ -218,10 +184,23 @@
             },
             {
                 "colorScheme": "One Half Dark",
+                "commandline": "pwsh -nol",
+                "cursorColor": "#A0DB60",
+                "cursorShape": "filledBox",
+                "font": {
+                    "face": "JetBrainsMono NFM"
+                },
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
+                "name": "PowerShell",
+                "source": "Windows.Terminal.PowershellCore",
+                "suppressApplicationTitle": true
+            },
+            {
+                "colorScheme": "One Half Dark",
                 "commandline": "tssh nasserver",
                 "cursorShape": "filledBox",
-                "font": 
-                {
+                "font": {
                     "face": "JetBrainsMono NFM",
                     "size": 12.0
                 },
@@ -245,8 +224,7 @@
             }
         ]
     },
-    "schemes": 
-    [
+    "schemes": [
         {
             "background": "#0C0C0C",
             "black": "#0C0C0C",
