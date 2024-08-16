@@ -4,7 +4,7 @@ packages:
         self: [git,7zip,aria2,nu,gsudo,scoop-completion,scoop-search]
         terminal: [starship,zoxide,lazygit,delta,tssh,trzsz,lf,fd,fzf]
         font: [FiraCode-NF,FiraCode-NF-Mono,Hack-NF]
-        editor: [neovim,sublime-text]
+        editor: [neovim,neovide]
         tools: [autohotkey,dropit,filezilla,ffmpeg,firefox,winscp,zotero,telegram,ventoy]
         pkgmanage: [vcredist2010,vcredist2012,miniconda3,nodejs,npm-completion]
     winget: 

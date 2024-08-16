@@ -3,6 +3,7 @@
     {{ range $scoopBucket -}}
     scoop bucket add {{ . | quote }}
     scoop bucket add lzwme_scoop-proxy-cn https://github.com/lzwme/scoop-proxy-cn
+    scoop config aria2-warning-enabled false
     {{ end -}}
     {{ $scoopPackages := .packages.scoop }}
     {{ range concat $scoopPackages.self $scoopPackages.terminal $scoopPackages.font $scoopPackages.editor $scoopPackages.tools $scoopPackages.pkgmanage}}
