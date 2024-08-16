@@ -4,14 +4,6 @@
     "actions": 
     [
         {
-            "command": 
-            {
-                "action": "copy",
-                "singleLine": false
-            },
-            "keys": "ctrl+c"
-        },
-        {
             "command": "unbound",
             "keys": "ctrl+shift+1"
         },
@@ -38,14 +30,22 @@
         {
             "command": 
             {
-                "action": "newTab",
-                "index": 1
+                "action": "copy",
+                "singleLine": false
             },
-            "keys": "ctrl+2"
+            "keys": "ctrl+c"
         },
         {
             "command": "paste",
             "keys": "ctrl+v"
+        },
+        {
+            "command": 
+            {
+                "action": "newTab",
+                "index": 1
+            },
+            "keys": "ctrl+2"
         },
         {
             "command": 
@@ -56,16 +56,16 @@
             "keys": "ctrl+4"
         },
         {
-            "command": "find",
-            "keys": "ctrl+shift+f"
-        },
-        {
             "command": 
             {
                 "action": "newTab",
                 "index": 4
             },
             "keys": "ctrl+5"
+        },
+        {
+            "command": "find",
+            "keys": "ctrl+shift+f"
         },
         {
             "command": 
@@ -86,21 +86,17 @@
         {
             "command": 
             {
-                "action": "scrollUp"
-            },
-            "keys": "pgup"
-        },
-        {
-            "command": 
-            {
                 "action": "newTab",
                 "index": 0
             },
             "keys": "ctrl+1"
         },
         {
-            "command": "scrollDownPage",
-            "keys": "ctrl+pgdn"
+            "command": 
+            {
+                "action": "scrollUp"
+            },
+            "keys": "pgup"
         },
         {
             "command": 
@@ -110,12 +106,12 @@
             "keys": "ctrl+f4"
         },
         {
-            "command": "scrollUpPage",
-            "keys": "ctrl+pgup"
+            "command": "scrollDownPage",
+            "keys": "ctrl+pgdn"
         },
         {
-            "command": "openNewTabDropdown",
-            "keys": "alt+o"
+            "command": "scrollUpPage",
+            "keys": "ctrl+pgup"
         },
         {
             "command": 
@@ -124,6 +120,10 @@
                 "index": 2
             },
             "keys": "ctrl+3"
+        },
+        {
+            "command": "openNewTabDropdown",
+            "keys": "alt+o"
         }
     ],
     "confirmCloseAllTabs": true,
@@ -160,7 +160,7 @@
                 },
                 "guid": "{0ceff23f-ce25-4e23-a2da-0f83f9a6fc11}",
                 "hidden": false,
-                "icon": "C:\\Users\\xuwei\\OneDrive\\Pictures\\icons\\PowerShell.png",
+                "icon": "D:\\OneDrive\\Pictures\\icons\\PowerShell.png",
                 "name": "Nushell",
                 "startingDirectory": "%USERPROFILE%",
                 "suppressApplicationTitle": true,
@@ -176,10 +176,10 @@
                 },
                 "guid": "{24a0533e-913b-5f8c-a5cb-6be85a4c9e70}",
                 "hidden": false,
-                "icon": "C:\\Users\\xuwei\\OneDrive\\Pictures\\icons\\ubuntu.png",
+                "icon": "D:\\OneDrive\\Pictures\\icons\\ubuntu.png",
                 "name": "Ubuntu",
                 "source": "CanonicalGroupLimited.Ubuntu18.04LTS_79rhkp1fndgsc",
-                "startingDirectory": "\\\\wsl.localhost\\Ubuntu-18.04\\home\\xuwei",
+                "startingDirectory": "~",
                 "suppressApplicationTitle": true,
                 "tabTitle": "Ubuntu1804",
                 "useAtlasEngine": true
@@ -196,7 +196,7 @@
                 },
                 "guid": "{a0997878-320e-4aab-a902-880b61c73643}",
                 "hidden": false,
-                "icon": "C:\\Users\\xuwei\\OneDrive\\Pictures\\icons\\aliyun.png",
+                "icon": "D:\\OneDrive\\Pictures\\icons\\aliyun.png",
                 "name": "VPS",
                 "startingDirectory": "%USERPROFILE%",
                 "suppressApplicationTitle": true
@@ -227,7 +227,7 @@
                 },
                 "guid": "{fcc25cb5-e764-4908-97c8-637f5490dd6a}",
                 "hidden": false,
-                "icon": "C:\\Users\\xuwei\\OneDrive\\Pictures\\icons\\PVE.png",
+                "icon": "D:\\OneDrive\\Pictures\\icons\\PVE.png",
                 "name": "NasServer",
                 "suppressApplicationTitle": true,
                 "tabTitle": "NasServer",
