@@ -39,3 +39,7 @@
     hunk-header-line-number-style = "#067a00"
     hunk-header-style = file line-number syntax
 
+[url "https://mirror.ghproxy.com/https://github.com"]
+	insteadOf = https://github.com
+[credential "https://mirror.ghproxy.com"]
+	provider = generic
