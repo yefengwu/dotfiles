@@ -168,7 +168,7 @@
             },
             {
                 "colorScheme": "One Half Dark",
-                "commandline": "ubuntupreview.exe",
+                "commandline": "wsl -d UbuntuPreview -u xuwei",
                 "font": 
                 {
                     "face": "JetBrainsMono NFM",
