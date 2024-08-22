@@ -4,14 +4,6 @@
     "actions": 
     [
         {
-            "command": 
-            {
-                "action": "copy",
-                "singleLine": false
-            },
-            "keys": "ctrl+c"
-        },
-        {
             "command": "unbound",
             "keys": "ctrl+shift+1"
         },
@@ -38,14 +30,22 @@
         {
             "command": 
             {
-                "action": "newTab",
-                "index": 1
+                "action": "copy",
+                "singleLine": false
             },
-            "keys": "ctrl+2"
+            "keys": "ctrl+c"
         },
         {
             "command": "paste",
             "keys": "ctrl+v"
+        },
+        {
+            "command": 
+            {
+                "action": "newTab",
+                "index": 1
+            },
+            "keys": "ctrl+2"
         },
         {
             "command": 
@@ -58,18 +58,18 @@
         {
             "command": 
             {
+                "action": "scrollDown"
+            },
+            "keys": "pgdn"
+        },
+        {
+            "command": 
+            {
                 "action": "splitPane",
                 "split": "auto",
                 "splitMode": "duplicate"
             },
             "keys": "alt+shift+d"
-        },
-        {
-            "command": 
-            {
-                "action": "scrollDown"
-            },
-            "keys": "pgdn"
         },
         {
             "command": "find",
@@ -86,17 +86,21 @@
         {
             "command": 
             {
+                "action": "scrollUp"
+            },
+            "keys": "pgup"
+        },
+        {
+            "command": 
+            {
                 "action": "newTab",
                 "index": 0
             },
             "keys": "ctrl+1"
         },
         {
-            "command": 
-            {
-                "action": "scrollUp"
-            },
-            "keys": "pgup"
+            "command": "scrollDownPage",
+            "keys": "ctrl+pgdn"
         },
         {
             "command": 
@@ -106,12 +110,12 @@
             "keys": "ctrl+f4"
         },
         {
-            "command": "scrollDownPage",
-            "keys": "ctrl+pgdn"
-        },
-        {
             "command": "scrollUpPage",
             "keys": "ctrl+pgup"
+        },
+        {
+            "command": "openNewTabDropdown",
+            "keys": "alt+o"
         },
         {
             "command": 
@@ -120,10 +124,6 @@
                 "index": 2
             },
             "keys": "ctrl+3"
-        },
-        {
-            "command": "openNewTabDropdown",
-            "keys": "alt+o"
         }
     ],
     "confirmCloseAllTabs": true,
@@ -168,7 +168,7 @@
             },
             {
                 "colorScheme": "One Half Dark",
-                "commandline": "wsl -d UbuntuPreview -u xuwei",
+                "commandline": "wsl -d Ubuntu-Preview -u xuwei",
                 "font": 
                 {
                     "face": "JetBrainsMono NFM",
