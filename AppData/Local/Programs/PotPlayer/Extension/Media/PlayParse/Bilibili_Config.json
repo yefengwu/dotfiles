@@ -1,0 +1,23 @@
+{
+    // 填写账号 Cookie
+    "cookie": "buvid3=93F6DC2E-1843-4086-DED0-66622BE6068C93139infoc; b_nut=1701848493; i-wanna-go-back=-1; b_ut=7; _uuid=D101019717-F7DB-DA13-CDAC-F5DB752A3E2490756infoc; buvid4=5A065640-0AC0-1AE2-4B8A-D699CBB620D793615-023120607-; header_theme_version=CLOSE; DedeUserID=334697671; DedeUserID__ckMd5=d498fa46b603a47b; enable_web_push=ENABLE; iflogin_when_web_push=1; rpdid=|(um|uYuJ)kl0J'u~|umkk~J|; buvid_fp_plain=undefined; FEED_LIVE_VERSION=V_WATCHLATER_PIP_WINDOW2; CURRENT_BLACKGAP=0; hit-dyn-v2=1; LIVE_BUVID=AUTO5717113442634109; CURRENT_QUALITY=80; home_feed_column=5; browser_resolution=1707-825; CURRENT_FNVAL=4048; theme_style=dark; bili_ticket=eyJhbGciOiJIUzI1NiIsImtpZCI6InMwMyIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MjQzODU3NjQsImlhdCI6MTcyNDEyNjUwNCwicGx0IjotMX0.m_JnDUI-S6DmB6I29xM0d_6CGQ4hM59pOQtu5RvzKvM; bili_ticket_expires=1724385704; SESSDATA=fbd2ea01%2C1739678566%2C89b63%2A82CjASxhfrkg_42kGuf4RW2nXRsd6NwnZC2PjwC6zs43ZJveHqQTLLlo4-fyLh67_VnScSVnZac0FoM2hRMlVJeDB1QzJpazB1dk1yTS10NFFrRnlqT25Na2cxVDlob0k1UUJXYU5sSk41aGhDdUNoMC1yM2RHeDJTS2JtVkFDb3Z0dWNnYy1yZElRIIEC; bili_jct=f5f99d3586687e0f3c500255eba5cd91; sid=581pldjx; fingerprint=e6d735379d6c53dd88a99f9f3efbf843; buvid_fp=97cff2d603ff9127839612246f417e27; b_lsid=66106A1B8_191783411DB
+",
+    "danmaku": {
+        // 控制是否接收弹幕。按 Alt+H 可显示/隐藏弹幕
+        "enable": true,
+        "server": "https://subtitle.chen310.repl.co",
+        // 字体
+        "font": "汉仪正圆",
+        // 字号
+        "fontSize": 30.0,
+        // 弹幕不透明度，取值范围 0.0 ~ 1.0
+        "opacity": 0.8,
+        // 弹幕显示区域大小，取值范围 0.0 ~ 1.0
+        "displayArea": 0.8,
+        // 弹幕显示时间
+        "stayTime": 15.0
+    },
+    // 播放单个视频时是否显示推荐的视频
+    "showRecommendedVideos": true,
+    "debug": false
+}
