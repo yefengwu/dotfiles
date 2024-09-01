@@ -7,9 +7,9 @@ Host ubuntu
     ServerAliveCountMax 999
 
 Host nasserver
-    HostName 10.8.0.6
+    HostName frp-lab.top
     User docker
-    Port 222
+    Port 23332
     IdentityFile ~/.ssh/id_ed25519
     ServerAliveInterval 60
     ServerAliveCountMax 999
