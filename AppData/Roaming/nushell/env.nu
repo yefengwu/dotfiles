@@ -90,3 +90,4 @@ zoxide init nushell | save -f ~/.zoxide.nu
 
 # add editor with nvim 
 $env.EDITOR = "nvim"
+$env.all_proxy = "http://127.0.0.1:7897"
