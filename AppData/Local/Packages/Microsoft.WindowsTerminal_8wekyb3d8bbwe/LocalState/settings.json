@@ -4,6 +4,14 @@
     "actions": 
     [
         {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "keys": "ctrl+c"
+        },
+        {
             "command": "unbound",
             "keys": "ctrl+shift+1"
         },
@@ -30,22 +38,14 @@
         {
             "command": 
             {
-                "action": "copy",
-                "singleLine": false
-            },
-            "keys": "ctrl+c"
-        },
-        {
-            "command": "paste",
-            "keys": "ctrl+v"
-        },
-        {
-            "command": 
-            {
                 "action": "newTab",
                 "index": 1
             },
             "keys": "ctrl+2"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
         },
         {
             "command": 
@@ -58,18 +58,18 @@
         {
             "command": 
             {
-                "action": "scrollDown"
-            },
-            "keys": "pgdn"
-        },
-        {
-            "command": 
-            {
                 "action": "splitPane",
                 "split": "auto",
                 "splitMode": "duplicate"
             },
             "keys": "alt+shift+d"
+        },
+        {
+            "command": 
+            {
+                "action": "scrollDown"
+            },
+            "keys": "pgdn"
         },
         {
             "command": "find",
@@ -86,21 +86,17 @@
         {
             "command": 
             {
-                "action": "scrollUp"
-            },
-            "keys": "pgup"
-        },
-        {
-            "command": 
-            {
                 "action": "newTab",
                 "index": 0
             },
             "keys": "ctrl+1"
         },
         {
-            "command": "scrollDownPage",
-            "keys": "ctrl+pgdn"
+            "command": 
+            {
+                "action": "scrollUp"
+            },
+            "keys": "pgup"
         },
         {
             "command": 
@@ -110,12 +106,12 @@
             "keys": "ctrl+f4"
         },
         {
-            "command": "scrollUpPage",
-            "keys": "ctrl+pgup"
+            "command": "scrollDownPage",
+            "keys": "ctrl+pgdn"
         },
         {
-            "command": "openNewTabDropdown",
-            "keys": "alt+o"
+            "command": "scrollUpPage",
+            "keys": "ctrl+pgup"
         },
         {
             "command": 
@@ -124,6 +120,10 @@
                 "index": 2
             },
             "keys": "ctrl+3"
+        },
+        {
+            "command": "openNewTabDropdown",
+            "keys": "alt+o"
         }
     ],
     "confirmCloseAllTabs": true,
@@ -143,7 +143,7 @@
         {
             "font": 
             {
-                "face": "JetBrainsMono NFM"
+                "face": "JetBrainsMono Nerd Font"
             },
             "historySize": 99999
         },
@@ -156,7 +156,7 @@
                 "cursorShape": "filledBox",
                 "font": 
                 {
-                    "face": "JetBrainsMono NFM"
+                    "face": "JetBrainsMono Nerd Font"
                 },
                 "guid": "{0ceff23f-ce25-4e23-a2da-0f83f9a6fc11}",
                 "hidden": false,
@@ -171,7 +171,7 @@
                 "commandline": "wsl -d Ubuntu-Preview -u xuwei",
                 "font": 
                 {
-                    "face": "JetBrainsMono NFM",
+                    "face": "JetBrainsMono Nerd Font",
                     "size": 12.0
                 },
                 "guid": "{24a0533e-913b-5f8c-a5cb-6be85a4c9e70}",
@@ -209,7 +209,7 @@
                 "cursorShape": "filledBox",
                 "font": 
                 {
-                    "face": "JetBrainsMono NFM"
+                    "face": "JetBrainsMono Nerd Font"
                 },
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
@@ -223,7 +223,7 @@
                 "cursorShape": "filledBox",
                 "font": 
                 {
-                    "face": "JetBrainsMono NFM",
+                    "face": "JetBrainsMono Nerd Font",
                     "size": 12.0
                 },
                 "guid": "{fcc25cb5-e764-4908-97c8-637f5490dd6a}",
@@ -595,5 +595,26 @@
         }
     ],
     "tabSwitcherMode": "mru",
-    "themes": []
+    "theme": "chonk",
+    "themes": [
+        {
+            "name": "chonk",
+            "tab":
+            {
+                "background": "#282C34",
+                "unfocusedBackground": "#2f3134",
+                "showCloseButton": "hover"
+            },
+            "tabRow":
+            {
+                "background": "#282C34",
+                "unfocusedBackground": "#282C34"
+            },
+            "window":
+            {
+                "applicationTheme": "dark",
+                "useMica": true
+            }
+        }
+    ]
 }
