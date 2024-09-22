@@ -44,6 +44,7 @@ alias sl = scoop list
 alias ci = chezmoi
 alias eo = explorer
 alias lg = lazygit.exe
+alias lf = yazi
 alias gcl = git clone 
 alias ga = git add . 
 alias gd = git diff 
