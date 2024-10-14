@@ -50,6 +50,7 @@ alias ga = git add .
 alias gd = git diff 
 alias gad = git add . and git commit --amend-no-edit
 alias gst = git status
+alias grv = git remote -v 
 alias md = mkdir
 def pwd [] {
   $env.PWD

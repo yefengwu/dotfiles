@@ -4,14 +4,6 @@
     "actions": 
     [
         {
-            "command": 
-            {
-                "action": "copy",
-                "singleLine": false
-            },
-            "keys": "ctrl+c"
-        },
-        {
             "command": "unbound",
             "keys": "ctrl+shift+1"
         },
@@ -38,10 +30,10 @@
         {
             "command": 
             {
-                "action": "newTab",
-                "index": 1
+                "action": "copy",
+                "singleLine": false
             },
-            "keys": "ctrl+2"
+            "keys": "ctrl+c"
         },
         {
             "command": "paste",
@@ -51,9 +43,35 @@
             "command": 
             {
                 "action": "newTab",
+                "index": 1
+            },
+            "keys": "ctrl+2"
+        },
+        {
+            "command": 
+            {
+                "action": "newTab",
                 "index": 3
             },
             "keys": "ctrl+4"
+        },
+        {
+            "command": 
+            {
+                "action": "renameTab"
+            }
+        },
+        {
+            "command": 
+            {
+                "action": "newTab",
+                "index": 4
+            },
+            "keys": "ctrl+5"
+        },
+        {
+            "command": "find",
+            "keys": "ctrl+shift+f"
         },
         {
             "command": 
@@ -70,18 +88,6 @@
                 "action": "scrollDown"
             },
             "keys": "pgdn"
-        },
-        {
-            "command": "find",
-            "keys": "ctrl+shift+f"
-        },
-        {
-            "command": 
-            {
-                "action": "newTab",
-                "index": 4
-            },
-            "keys": "ctrl+5"
         },
         {
             "command": 
@@ -114,6 +120,10 @@
             "keys": "ctrl+pgup"
         },
         {
+            "command": "openNewTabDropdown",
+            "keys": "alt+o"
+        },
+        {
             "command": 
             {
                 "action": "newTab",
@@ -122,8 +132,8 @@
             "keys": "ctrl+3"
         },
         {
-            "command": "openNewTabDropdown",
-            "keys": "alt+o"
+            "command": "openTabRenamer",
+            "keys": "f2"
         }
     ],
     "confirmCloseAllTabs": true,
@@ -180,7 +190,7 @@
                 "name": "Ubuntu",
                 "source": "CanonicalGroupLimited.Ubuntu18.04LTS_79rhkp1fndgsc",
                 "startingDirectory": "~",
-                "suppressApplicationTitle": true,
+                "suppressApplicationTitle": false,
                 "tabTitle": "WSL",
                 "useAcrylic": true,
                 "useAtlasEngine": true
@@ -596,23 +606,28 @@
     ],
     "tabSwitcherMode": "mru",
     "theme": "chonk",
-    "themes": [
+    "themes": 
+    [
         {
             "name": "chonk",
-            "tab":
+            "tab": 
             {
-                "background": "#282C34",
-                "unfocusedBackground": "#2f3134",
-                "showCloseButton": "hover"
+                "background": "#282C34FF",
+                "iconStyle": "default",
+                "showCloseButton": "hover",
+                "unfocusedBackground": "#2F3134FF"
             },
-            "tabRow":
+            "tabRow": 
             {
-                "background": "#282C34",
-                "unfocusedBackground": "#282C34"
+                "background": "#282C34FF",
+                "unfocusedBackground": "#282C34FF"
             },
-            "window":
+            "window": 
             {
                 "applicationTheme": "dark",
+                "experimental.rainbowFrame": false,
+                "frame": null,
+                "unfocusedFrame": null,
                 "useMica": true
             }
         }
